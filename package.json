@@ -1,0 +1,25 @@
+{
+  "name": "intercom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive tests",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakeKeenan25/intercom.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakeKeenan25/intercom/issues"
+  },
+  "homepage": "https://github.com/JakeKeenan25/intercom#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mocha": "^8.1.1"
+  }
+}
