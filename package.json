@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/JakeKeenan25/intercom#readme",
   "dependencies": {
-    "dotenv": "^8.2.0",
+    "assert": "^2.0.0",
+    "axios": "^0.20.0",
+    "chai": "^4.2.0",
     "mocha": "^8.1.1"
   }
 }
