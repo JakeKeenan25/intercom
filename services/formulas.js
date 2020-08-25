@@ -1,8 +1,15 @@
 "use strict";
 const {RADII} = require('./const');
+const logger = require('./configs').logger().getLogger("formulas.js");
 
 (function () {
+	/**
+	 * Formula for the Circle Distance.
+	 * @param {object} coords 
+	 * @returns {string} distance
+	 */
 	this.greatCircleDistance = (coords) => {
+		logger.info(`greatCircleDistance coords = ${JSON.stringify(coords)}`);
 		let distance = null;
 
 		try{
@@ -18,16 +25,21 @@ const {RADII} = require('./const');
 
 					const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
 					distance = RADII * c;
+					logger.info(`greatCircleDistance distance = ${distance}`);
 				}
 			}
 		}catch(e){
-			console.log(`utils.greatCircleDistance(${coords}):${e}`);
+			logger.error(`greatCircleDistance(${coords}):${e}`);
 		}
 
 		return distance;
 	};
 
-
+	/**
+	 * Converts co-ordinate to radians.
+	 * @param {string} coordinate 
+	 * @returns {string} coordinate in radians
+	 */
 	this.getRadians =(coordinate) => {
 		return coordinate ? coordinate * (Math.PI/180):null;
 	};
