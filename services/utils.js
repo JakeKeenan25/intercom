@@ -1,12 +1,19 @@
 const axios = require("axios");
 const { greatCircleDistance} = require('./formulas');
 const { HEAD_OFFICE}  = require('./const');
+const logger = require('./configs').logger().getLogger("utils.js");
 
 (function () {
+	/**
+	 * Makes an axios get request to a passed url location
+	 * @param {string} location 
+	 * @returns {promise} Array where every element is a new line from the request.
+	 */
 	this.readFile = (location) => {
+		logger.info(`readFile location = ${location}`);
 		return new Promise((resolve, reject) => {
 			if (!location){
-				console.log(`utils.readFile(${location}):Invalid Param`);
+				logger.error(`readFile(${location}):Invalid Param`);
 				reject(null);
 				return;
 			}
@@ -23,19 +30,26 @@ const { HEAD_OFFICE}  = require('./const');
 						resolve(res.data.toString().split('\n'));
 					}
 				}).catch(e => {
-					console.log(`utils.readFile(${location}):${e}`);
+					logger.error(`readFile(${location}):${e}`);
 					reject(null);
 					return;
 				})
 			}catch(e){
-				console.log(`utils.readFile(${location}):${e}`);
-					reject(null);
-					return;
+				logger.error(`readFile(${location}):${e}`);
+				reject(null);
+				return;
 			}
 		})
 	}
 
+	/**
+	 * Calculates the distance between 2 coordinates using the greatCircleDistance formula.
+	 * @param {string} latitude 
+	 * @param {string} longitude 
+	 * @returns {string} null or distance
+	 */
 	this.calculate = (latitude, longitude) => {
+		logger.info(`readFile calculate = ${latitude}, ${longitude}`);
 		let distance = null;
 
 		if (latitude && longitude){
@@ -48,13 +62,18 @@ const { HEAD_OFFICE}  = require('./const');
 				};
 				distance = greatCircleDistance(coords);
 			}catch(e){
-				console.log(`utils.calculate(${latitude},${longitude}):${e}`);
+				logger.error(`calculate(${latitude},${longitude}):${e}`);
 			}
 		}
 
 		return distance;
 	}
 
+	/**
+	 * Sorts an array by number
+	 * @param {*} a 
+	 * @param {*} b 
+	 */
 	this.sort2DArray = (a, b) => {
 		if (a[0] === b[0]) {
 			return 0;
