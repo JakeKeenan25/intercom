@@ -178,3 +178,739 @@
 [2020-08-25T16:27:04.754] [INFO] formulas.js - greatCircleDistance distance = 161.36207870696947
 [2020-08-25T16:27:04.754] [INFO] index.js - distance = 161.36207870696947
 [2020-08-25T16:27:04.774] [TRACE] index.js - Ending
+[2020-08-25T16:51:31.099] [TRACE] index.js - Starting
+[2020-08-25T16:51:31.102] [INFO] utils.js - readFile location = https://s3.amazonaws.com/intercom-take-home-test/customers.txt
+[2020-08-25T16:51:31.549] [INFO] index.js - Res = {"latitude": "52.986375", "user_id": 12, "name": "Christina McArdle", "longitude": "-6.043701"},{"latitude": "51.92893", "user_id": 1, "name": "Alice Cahill", "longitude": "-10.27699"},{"latitude": "51.8856167", "user_id": 2, "name": "Ian McArdle", "longitude": "-10.4240951"},{"latitude": "52.3191841", "user_id": 3, "name": "Jack Enright", "longitude": "-8.5072391"},{"latitude": "53.807778", "user_id": 28, "name": "Charlie Halligan", "longitude": "-7.714444"},{"latitude": "53.4692815", "user_id": 7, "name": "Frank Kehoe", "longitude": "-9.436036"},{"latitude": "54.0894797", "user_id": 8, "name": "Eoin Ahearn", "longitude": "-6.18671"},{"latitude": "53.038056", "user_id": 26, "name": "Stephen McArdle", "longitude": "-7.653889"},{"latitude": "54.1225", "user_id": 27, "name": "Enid Gallagher", "longitude": "-8.143333"},{"latitude": "53.1229599", "user_id": 6, "name": "Theresa Enright", "longitude": "-6.2705202"},{"latitude": "52.2559432", "user_id": 9, "name": "Jack Dempsey", "longitude": "-7.1048927"},{"latitude": "52.240382", "user_id": 10, "name": "Georgina Gallagher", "longitude": "-6.972413"},{"latitude": "53.2451022", "user_id": 4, "name": "Ian Kehoe", "longitude": "-6.238335"},{"latitude": "53.1302756", "user_id": 5, "name": "Nora Dempsey", "longitude": "-6.2397222"},{"latitude": "53.008769", "user_id": 11, "name": "Richard Finnegan", "longitude": "-6.1056711"},{"latitude": "53.1489345", "user_id": 31, "name": "Alan Behan", "longitude": "-6.8422408"},{"latitude": "53", "user_id": 13, "name": "Olive Ahearn", "longitude": "-7"},{"latitude": "51.999447", "user_id": 14, "name": "Helen Cahill", "longitude": "-9.742744"},{"latitude": "52.966", "user_id": 15, "name": "Michael Ahearn", "longitude": "-6.463"},{"latitude": "52.366037", "user_id": 16, "name": "Ian Larkin", "longitude": "-8.179118"},{"latitude": "54.180238", "user_id": 17, "name": "Patricia Cahill", "longitude": "-5.920898"},{"latitude": "53.0033946", "user_id": 39, "name": "Lisa Ahearn", "longitude": "-6.3877505"},{"latitude": "52.228056", "user_id": 18, "name": "Bob Larkin", "longitude": "-7.915833"},{"latitude": "54.133333", "user_id": 24, "name": "Rose Enright", "longitude": "-6.433333"},{"latitude": "55.033", "user_id": 19, "name": "Enid Cahill", "longitude": "-8.112"},{"latitude": "53.521111", "user_id": 20, "name": "Enid Enright", "longitude": "-9.831111"},{"latitude": "51.802", "user_id": 21, "name": "David Ahearn", "longitude": "-9.442"},{"latitude": "54.374208", "user_id": 22, "name": "Charlie McArdle", "longitude": "-8.371639"},{"latitude": "53.74452", "user_id": 29, "name": "Oliver Ahearn", "longitude": "-7.11167"},{"latitude": "53.761389", "user_id": 30, "name": "Nick Enright", "longitude": "-7.2875"},{"latitude": "54.080556", "user_id": 23, "name": "Eoin Gallagher", "longitude": "-6.361944"},{"latitude": "52.833502", "user_id": 25, "name": "David Behan", "longitude": "-8.522366"}
+[2020-08-25T16:51:31.549] [INFO] index.js - ele = {"latitude": "52.986375", "user_id": 12, "name": "Christina McArdle", "longitude": "-6.043701"}
+[2020-08-25T16:51:31.549] [INFO] utils.js - readFile calculate = 52.986375, -6.043701
+[2020-08-25T16:51:31.549] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.986375","longitude2":"-6.043701"}
+[2020-08-25T16:51:31.550] [INFO] formulas.js - greatCircleDistance distance = 41.7687255008362
+[2020-08-25T16:51:31.550] [INFO] index.js - distance = 41.7687255008362
+[2020-08-25T16:51:31.550] [INFO] index.js - Add Christina McArdle to party List
+[2020-08-25T16:51:31.550] [INFO] index.js - ele = {"latitude": "51.92893", "user_id": 1, "name": "Alice Cahill", "longitude": "-10.27699"}
+[2020-08-25T16:51:31.550] [INFO] utils.js - readFile calculate = 51.92893, -10.27699
+[2020-08-25T16:51:31.550] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"51.92893","longitude2":"-10.27699"}
+[2020-08-25T16:51:31.550] [INFO] formulas.js - greatCircleDistance distance = 313.2556337814158
+[2020-08-25T16:51:31.550] [INFO] index.js - distance = 313.2556337814158
+[2020-08-25T16:51:31.550] [INFO] index.js - ele = {"latitude": "51.8856167", "user_id": 2, "name": "Ian McArdle", "longitude": "-10.4240951"}
+[2020-08-25T16:51:31.551] [INFO] utils.js - readFile calculate = 51.8856167, -10.4240951
+[2020-08-25T16:51:31.551] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"51.8856167","longitude2":"-10.4240951"}
+[2020-08-25T16:51:31.551] [INFO] formulas.js - greatCircleDistance distance = 324.3749120082728
+[2020-08-25T16:51:31.551] [INFO] index.js - distance = 324.3749120082728
+[2020-08-25T16:51:31.551] [INFO] index.js - ele = {"latitude": "52.3191841", "user_id": 3, "name": "Jack Enright", "longitude": "-8.5072391"}
+[2020-08-25T16:51:31.551] [INFO] utils.js - readFile calculate = 52.3191841, -8.5072391
+[2020-08-25T16:51:31.551] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.3191841","longitude2":"-8.5072391"}
+[2020-08-25T16:51:31.551] [INFO] formulas.js - greatCircleDistance distance = 188.9593639387078
+[2020-08-25T16:51:31.551] [INFO] index.js - distance = 188.9593639387078
+[2020-08-25T16:51:31.551] [INFO] index.js - ele = {"latitude": "53.807778", "user_id": 28, "name": "Charlie Halligan", "longitude": "-7.714444"}
+[2020-08-25T16:51:31.551] [INFO] utils.js - readFile calculate = 53.807778, -7.714444
+[2020-08-25T16:51:31.551] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.807778","longitude2":"-7.714444"}
+[2020-08-25T16:51:31.551] [INFO] formulas.js - greatCircleDistance distance = 109.37645542985646
+[2020-08-25T16:51:31.551] [INFO] index.js - distance = 109.37645542985646
+[2020-08-25T16:51:31.551] [INFO] index.js - ele = {"latitude": "53.4692815", "user_id": 7, "name": "Frank Kehoe", "longitude": "-9.436036"}
+[2020-08-25T16:51:31.551] [INFO] utils.js - readFile calculate = 53.4692815, -9.436036
+[2020-08-25T16:51:31.551] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.4692815","longitude2":"-9.436036"}
+[2020-08-25T16:51:31.551] [INFO] formulas.js - greatCircleDistance distance = 211.17205229628533
+[2020-08-25T16:51:31.551] [INFO] index.js - distance = 211.17205229628533
+[2020-08-25T16:51:31.551] [INFO] index.js - ele = {"latitude": "54.0894797", "user_id": 8, "name": "Eoin Ahearn", "longitude": "-6.18671"}
+[2020-08-25T16:51:31.551] [INFO] utils.js - readFile calculate = 54.0894797, -6.18671
+[2020-08-25T16:51:31.551] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"54.0894797","longitude2":"-6.18671"}
+[2020-08-25T16:51:31.551] [INFO] formulas.js - greatCircleDistance distance = 83.5325311678587
+[2020-08-25T16:51:31.551] [INFO] index.js - distance = 83.5325311678587
+[2020-08-25T16:51:31.551] [INFO] index.js - Add Eoin Ahearn to party List
+[2020-08-25T16:51:31.551] [INFO] index.js - ele = {"latitude": "53.038056", "user_id": 26, "name": "Stephen McArdle", "longitude": "-7.653889"}
+[2020-08-25T16:51:31.551] [INFO] utils.js - readFile calculate = 53.038056, -7.653889
+[2020-08-25T16:51:31.551] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.038056","longitude2":"-7.653889"}
+[2020-08-25T16:51:31.551] [INFO] formulas.js - greatCircleDistance distance = 98.87459926458506
+[2020-08-25T16:51:31.551] [INFO] index.js - distance = 98.87459926458506
+[2020-08-25T16:51:31.551] [INFO] index.js - Add Stephen McArdle to party List
+[2020-08-25T16:51:31.551] [INFO] index.js - ele = {"latitude": "54.1225", "user_id": 27, "name": "Enid Gallagher", "longitude": "-8.143333"}
+[2020-08-25T16:51:31.551] [INFO] utils.js - readFile calculate = 54.1225, -8.143333
+[2020-08-25T16:51:31.551] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"54.1225","longitude2":"-8.143333"}
+[2020-08-25T16:51:31.551] [INFO] formulas.js - greatCircleDistance distance = 151.54302371497292
+[2020-08-25T16:51:31.551] [INFO] index.js - distance = 151.54302371497292
+[2020-08-25T16:51:31.551] [INFO] index.js - ele = {"latitude": "53.1229599", "user_id": 6, "name": "Theresa Enright", "longitude": "-6.2705202"}
+[2020-08-25T16:51:31.551] [INFO] utils.js - readFile calculate = 53.1229599, -6.2705202
+[2020-08-25T16:51:31.551] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.1229599","longitude2":"-6.2705202"}
+[2020-08-25T16:51:31.551] [INFO] formulas.js - greatCircleDistance distance = 24.085360019144122
+[2020-08-25T16:51:31.551] [INFO] index.js - distance = 24.085360019144122
+[2020-08-25T16:51:31.551] [INFO] index.js - Add Theresa Enright to party List
+[2020-08-25T16:51:31.551] [INFO] index.js - ele = {"latitude": "52.2559432", "user_id": 9, "name": "Jack Dempsey", "longitude": "-7.1048927"}
+[2020-08-25T16:51:31.551] [INFO] utils.js - readFile calculate = 52.2559432, -7.1048927
+[2020-08-25T16:51:31.552] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.2559432","longitude2":"-7.1048927"}
+[2020-08-25T16:51:31.552] [INFO] formulas.js - greatCircleDistance distance = 133.262332534258
+[2020-08-25T16:51:31.552] [INFO] index.js - distance = 133.262332534258
+[2020-08-25T16:51:31.552] [INFO] index.js - ele = {"latitude": "52.240382", "user_id": 10, "name": "Georgina Gallagher", "longitude": "-6.972413"}
+[2020-08-25T16:51:31.552] [INFO] utils.js - readFile calculate = 52.240382, -6.972413
+[2020-08-25T16:51:31.552] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.240382","longitude2":"-6.972413"}
+[2020-08-25T16:51:31.552] [INFO] formulas.js - greatCircleDistance distance = 131.31804418397596
+[2020-08-25T16:51:31.552] [INFO] index.js - distance = 131.31804418397596
+[2020-08-25T16:51:31.552] [INFO] index.js - ele = {"latitude": "53.2451022", "user_id": 4, "name": "Ian Kehoe", "longitude": "-6.238335"}
+[2020-08-25T16:51:31.552] [INFO] utils.js - readFile calculate = 53.2451022, -6.238335
+[2020-08-25T16:51:31.552] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.2451022","longitude2":"-6.238335"}
+[2020-08-25T16:51:31.552] [INFO] formulas.js - greatCircleDistance distance = 10.566936288868758
+[2020-08-25T16:51:31.552] [INFO] index.js - distance = 10.566936288868758
+[2020-08-25T16:51:31.552] [INFO] index.js - Add Ian Kehoe to party List
+[2020-08-25T16:51:31.552] [INFO] index.js - ele = {"latitude": "53.1302756", "user_id": 5, "name": "Nora Dempsey", "longitude": "-6.2397222"}
+[2020-08-25T16:51:31.552] [INFO] utils.js - readFile calculate = 53.1302756, -6.2397222
+[2020-08-25T16:51:31.552] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.1302756","longitude2":"-6.2397222"}
+[2020-08-25T16:51:31.552] [INFO] formulas.js - greatCircleDistance distance = 23.287320663099482
+[2020-08-25T16:51:31.552] [INFO] index.js - distance = 23.287320663099482
+[2020-08-25T16:51:31.552] [INFO] index.js - Add Nora Dempsey to party List
+[2020-08-25T16:51:31.552] [INFO] index.js - ele = {"latitude": "53.008769", "user_id": 11, "name": "Richard Finnegan", "longitude": "-6.1056711"}
+[2020-08-25T16:51:31.552] [INFO] utils.js - readFile calculate = 53.008769, -6.1056711
+[2020-08-25T16:51:31.552] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.008769","longitude2":"-6.1056711"}
+[2020-08-25T16:51:31.552] [INFO] formulas.js - greatCircleDistance distance = 38.13756809820165
+[2020-08-25T16:51:31.552] [INFO] index.js - distance = 38.13756809820165
+[2020-08-25T16:51:31.552] [INFO] index.js - Add Richard Finnegan to party List
+[2020-08-25T16:51:31.552] [INFO] index.js - ele = {"latitude": "53.1489345", "user_id": 31, "name": "Alan Behan", "longitude": "-6.8422408"}
+[2020-08-25T16:51:31.552] [INFO] utils.js - readFile calculate = 53.1489345, -6.8422408
+[2020-08-25T16:51:31.552] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.1489345","longitude2":"-6.8422408"}
+[2020-08-25T16:51:31.552] [INFO] formulas.js - greatCircleDistance distance = 44.29082235506623
+[2020-08-25T16:51:31.552] [INFO] index.js - distance = 44.29082235506623
+[2020-08-25T16:51:31.552] [INFO] index.js - Add Alan Behan to party List
+[2020-08-25T16:51:31.552] [INFO] index.js - ele = {"latitude": "53", "user_id": 13, "name": "Olive Ahearn", "longitude": "-7"}
+[2020-08-25T16:51:31.552] [INFO] utils.js - readFile calculate = 53, -7
+[2020-08-25T16:51:31.552] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53","longitude2":"-7"}
+[2020-08-25T16:51:31.552] [INFO] formulas.js - greatCircleDistance distance = 62.23170226292825
+[2020-08-25T16:51:31.552] [INFO] index.js - distance = 62.23170226292825
+[2020-08-25T16:51:31.552] [INFO] index.js - Add Olive Ahearn to party List
+[2020-08-25T16:51:31.553] [INFO] index.js - ele = {"latitude": "51.999447", "user_id": 14, "name": "Helen Cahill", "longitude": "-9.742744"}
+[2020-08-25T16:51:31.553] [INFO] utils.js - readFile calculate = 51.999447, -9.742744
+[2020-08-25T16:51:31.553] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"51.999447","longitude2":"-9.742744"}
+[2020-08-25T16:51:31.553] [INFO] formulas.js - greatCircleDistance distance = 278.2067221536596
+[2020-08-25T16:51:31.553] [INFO] index.js - distance = 278.2067221536596
+[2020-08-25T16:51:31.553] [INFO] index.js - ele = {"latitude": "52.966", "user_id": 15, "name": "Michael Ahearn", "longitude": "-6.463"}
+[2020-08-25T16:51:31.553] [INFO] utils.js - readFile calculate = 52.966, -6.463
+[2020-08-25T16:51:31.553] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.966","longitude2":"-6.463"}
+[2020-08-25T16:51:31.553] [INFO] formulas.js - greatCircleDistance distance = 43.72248745925171
+[2020-08-25T16:51:31.553] [INFO] index.js - distance = 43.72248745925171
+[2020-08-25T16:51:31.553] [INFO] index.js - Add Michael Ahearn to party List
+[2020-08-25T16:51:31.553] [INFO] index.js - ele = {"latitude": "52.366037", "user_id": 16, "name": "Ian Larkin", "longitude": "-8.179118"}
+[2020-08-25T16:51:31.553] [INFO] utils.js - readFile calculate = 52.366037, -8.179118
+[2020-08-25T16:51:31.553] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.366037","longitude2":"-8.179118"}
+[2020-08-25T16:51:31.553] [INFO] formulas.js - greatCircleDistance distance = 168.39718202062937
+[2020-08-25T16:51:31.553] [INFO] index.js - distance = 168.39718202062937
+[2020-08-25T16:51:31.553] [INFO] index.js - ele = {"latitude": "54.180238", "user_id": 17, "name": "Patricia Cahill", "longitude": "-5.920898"}
+[2020-08-25T16:51:31.553] [INFO] utils.js - readFile calculate = 54.180238, -5.920898
+[2020-08-25T16:51:31.553] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"54.180238","longitude2":"-5.920898"}
+[2020-08-25T16:51:31.553] [INFO] formulas.js - greatCircleDistance distance = 96.07859923633525
+[2020-08-25T16:51:31.553] [INFO] index.js - distance = 96.07859923633525
+[2020-08-25T16:51:31.553] [INFO] index.js - Add Patricia Cahill to party List
+[2020-08-25T16:51:31.553] [INFO] index.js - ele = {"latitude": "53.0033946", "user_id": 39, "name": "Lisa Ahearn", "longitude": "-6.3877505"}
+[2020-08-25T16:51:31.553] [INFO] utils.js - readFile calculate = 53.0033946, -6.3877505
+[2020-08-25T16:51:31.553] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.0033946","longitude2":"-6.3877505"}
+[2020-08-25T16:51:31.553] [INFO] formulas.js - greatCircleDistance distance = 38.35801477480562
+[2020-08-25T16:51:31.553] [INFO] index.js - distance = 38.35801477480562
+[2020-08-25T16:51:31.553] [INFO] index.js - Add Lisa Ahearn to party List
+[2020-08-25T16:51:31.553] [INFO] index.js - ele = {"latitude": "52.228056", "user_id": 18, "name": "Bob Larkin", "longitude": "-7.915833"}
+[2020-08-25T16:51:31.553] [INFO] utils.js - readFile calculate = 52.228056, -7.915833
+[2020-08-25T16:51:31.553] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.228056","longitude2":"-7.915833"}
+[2020-08-25T16:51:31.553] [INFO] formulas.js - greatCircleDistance distance = 166.44809264264532
+[2020-08-25T16:51:31.553] [INFO] index.js - distance = 166.44809264264532
+[2020-08-25T16:51:31.553] [INFO] index.js - ele = {"latitude": "54.133333", "user_id": 24, "name": "Rose Enright", "longitude": "-6.433333"}
+[2020-08-25T16:51:31.553] [INFO] utils.js - readFile calculate = 54.133333, -6.433333
+[2020-08-25T16:51:31.553] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"54.133333","longitude2":"-6.433333"}
+[2020-08-25T16:51:31.553] [INFO] formulas.js - greatCircleDistance distance = 89.03103382223571
+[2020-08-25T16:51:31.553] [INFO] index.js - distance = 89.03103382223571
+[2020-08-25T16:51:31.554] [INFO] index.js - Add Rose Enright to party List
+[2020-08-25T16:51:31.554] [INFO] index.js - ele = {"latitude": "55.033", "user_id": 19, "name": "Enid Cahill", "longitude": "-8.112"}
+[2020-08-25T16:51:31.554] [INFO] utils.js - readFile calculate = 55.033, -8.112
+[2020-08-25T16:51:31.554] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"55.033","longitude2":"-8.112"}
+[2020-08-25T16:51:31.554] [INFO] formulas.js - greatCircleDistance distance = 223.63496516415296
+[2020-08-25T16:51:31.554] [INFO] index.js - distance = 223.63496516415296
+[2020-08-25T16:51:31.554] [INFO] index.js - ele = {"latitude": "53.521111", "user_id": 20, "name": "Enid Enright", "longitude": "-9.831111"}
+[2020-08-25T16:51:31.554] [INFO] utils.js - readFile calculate = 53.521111, -9.831111
+[2020-08-25T16:51:31.554] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.521111","longitude2":"-9.831111"}
+[2020-08-25T16:51:31.554] [INFO] formulas.js - greatCircleDistance distance = 237.57601503985916
+[2020-08-25T16:51:31.554] [INFO] index.js - distance = 237.57601503985916
+[2020-08-25T16:51:31.554] [INFO] index.js - ele = {"latitude": "51.802", "user_id": 21, "name": "David Ahearn", "longitude": "-9.442"}
+[2020-08-25T16:51:31.554] [INFO] utils.js - readFile calculate = 51.802, -9.442
+[2020-08-25T16:51:31.554] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"51.802","longitude2":"-9.442"}
+[2020-08-25T16:51:31.554] [INFO] formulas.js - greatCircleDistance distance = 274.7978002188137
+[2020-08-25T16:51:31.554] [INFO] index.js - distance = 274.7978002188137
+[2020-08-25T16:51:31.554] [INFO] index.js - ele = {"latitude": "54.374208", "user_id": 22, "name": "Charlie McArdle", "longitude": "-8.371639"}
+[2020-08-25T16:51:31.554] [INFO] utils.js - readFile calculate = 54.374208, -8.371639
+[2020-08-25T16:51:31.554] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"54.374208","longitude2":"-8.371639"}
+[2020-08-25T16:51:31.554] [INFO] formulas.js - greatCircleDistance distance = 180.1552772286623
+[2020-08-25T16:51:31.554] [INFO] index.js - distance = 180.1552772286623
+[2020-08-25T16:51:31.554] [INFO] index.js - ele = {"latitude": "53.74452", "user_id": 29, "name": "Oliver Ahearn", "longitude": "-7.11167"}
+[2020-08-25T16:51:31.554] [INFO] utils.js - readFile calculate = 53.74452, -7.11167
+[2020-08-25T16:51:31.554] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.74452","longitude2":"-7.11167"}
+[2020-08-25T16:51:31.554] [INFO] formulas.js - greatCircleDistance distance = 72.20178549704269
+[2020-08-25T16:51:31.554] [INFO] index.js - distance = 72.20178549704269
+[2020-08-25T16:51:31.554] [INFO] index.js - Add Oliver Ahearn to party List
+[2020-08-25T16:51:31.554] [INFO] index.js - ele = {"latitude": "53.761389", "user_id": 30, "name": "Nick Enright", "longitude": "-7.2875"}
+[2020-08-25T16:51:31.554] [INFO] utils.js - readFile calculate = 53.761389, -7.2875
+[2020-08-25T16:51:31.554] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.761389","longitude2":"-7.2875"}
+[2020-08-25T16:51:31.554] [INFO] formulas.js - greatCircleDistance distance = 82.64284999110231
+[2020-08-25T16:51:31.554] [INFO] index.js - distance = 82.64284999110231
+[2020-08-25T16:51:31.554] [INFO] index.js - Add Nick Enright to party List
+[2020-08-25T16:51:31.554] [INFO] index.js - ele = {"latitude": "54.080556", "user_id": 23, "name": "Eoin Gallagher", "longitude": "-6.361944"}
+[2020-08-25T16:51:31.554] [INFO] utils.js - readFile calculate = 54.080556, -6.361944
+[2020-08-25T16:51:31.554] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"54.080556","longitude2":"-6.361944"}
+[2020-08-25T16:51:31.554] [INFO] formulas.js - greatCircleDistance distance = 82.69492611639981
+[2020-08-25T16:51:31.554] [INFO] index.js - distance = 82.69492611639981
+[2020-08-25T16:51:31.554] [INFO] index.js - Add Eoin Gallagher to party List
+[2020-08-25T16:51:31.554] [INFO] index.js - ele = {"latitude": "52.833502", "user_id": 25, "name": "David Behan", "longitude": "-8.522366"}
+[2020-08-25T16:51:31.554] [INFO] utils.js - readFile calculate = 52.833502, -8.522366
+[2020-08-25T16:51:31.555] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.833502","longitude2":"-8.522366"}
+[2020-08-25T16:51:31.555] [INFO] formulas.js - greatCircleDistance distance = 161.36207870696947
+[2020-08-25T16:51:31.555] [INFO] index.js - distance = 161.36207870696947
+[2020-08-25T16:51:31.568] [TRACE] index.js - Ending
+[2020-08-29T18:09:54.182] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.986375","longitude2":"-6.043701"}
+[2020-08-29T18:09:54.188] [INFO] formulas.js - greatCircleDistance distance = 41.7687255008362
+[2020-08-29T18:09:54.192] [INFO] formulas.js - greatCircleDistance coords = undefined
+[2020-08-29T18:09:54.192] [ERROR] formulas.js - greatCircleDistance(undefined):TypeError: Cannot destructure property `latitude1` of 'undefined' or 'null'.
+[2020-08-29T18:09:54.204] [INFO] utils.js - readFile location = undefined
+[2020-08-29T18:09:54.205] [ERROR] utils.js - readFile(undefined):Invalid Param
+[2020-08-29T18:09:54.207] [INFO] utils.js - readFile location = undefined
+[2020-08-29T18:09:54.207] [ERROR] utils.js - readFile(undefined):Invalid Param
+[2020-08-29T18:09:54.209] [INFO] utils.js - readFile calculate = 52.986375, -6.043701
+[2020-08-29T18:09:54.210] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.986375","longitude2":"-6.043701"}
+[2020-08-29T18:09:54.210] [INFO] formulas.js - greatCircleDistance distance = 41.7687255008362
+[2020-08-29T18:09:54.211] [INFO] utils.js - readFile calculate = undefined, undefined
+[2020-08-29T18:10:20.836] [TRACE] index.js - Starting
+[2020-08-29T18:10:20.842] [INFO] utils.js - readFile location = https://s3.amazonaws.com/intercom-take-home-test/customers.txt
+[2020-08-29T18:10:21.306] [INFO] index.js - Res = {"latitude": "52.986375", "user_id": 12, "name": "Christina McArdle", "longitude": "-6.043701"},{"latitude": "51.92893", "user_id": 1, "name": "Alice Cahill", "longitude": "-10.27699"},{"latitude": "51.8856167", "user_id": 2, "name": "Ian McArdle", "longitude": "-10.4240951"},{"latitude": "52.3191841", "user_id": 3, "name": "Jack Enright", "longitude": "-8.5072391"},{"latitude": "53.807778", "user_id": 28, "name": "Charlie Halligan", "longitude": "-7.714444"},{"latitude": "53.4692815", "user_id": 7, "name": "Frank Kehoe", "longitude": "-9.436036"},{"latitude": "54.0894797", "user_id": 8, "name": "Eoin Ahearn", "longitude": "-6.18671"},{"latitude": "53.038056", "user_id": 26, "name": "Stephen McArdle", "longitude": "-7.653889"},{"latitude": "54.1225", "user_id": 27, "name": "Enid Gallagher", "longitude": "-8.143333"},{"latitude": "53.1229599", "user_id": 6, "name": "Theresa Enright", "longitude": "-6.2705202"},{"latitude": "52.2559432", "user_id": 9, "name": "Jack Dempsey", "longitude": "-7.1048927"},{"latitude": "52.240382", "user_id": 10, "name": "Georgina Gallagher", "longitude": "-6.972413"},{"latitude": "53.2451022", "user_id": 4, "name": "Ian Kehoe", "longitude": "-6.238335"},{"latitude": "53.1302756", "user_id": 5, "name": "Nora Dempsey", "longitude": "-6.2397222"},{"latitude": "53.008769", "user_id": 11, "name": "Richard Finnegan", "longitude": "-6.1056711"},{"latitude": "53.1489345", "user_id": 31, "name": "Alan Behan", "longitude": "-6.8422408"},{"latitude": "53", "user_id": 13, "name": "Olive Ahearn", "longitude": "-7"},{"latitude": "51.999447", "user_id": 14, "name": "Helen Cahill", "longitude": "-9.742744"},{"latitude": "52.966", "user_id": 15, "name": "Michael Ahearn", "longitude": "-6.463"},{"latitude": "52.366037", "user_id": 16, "name": "Ian Larkin", "longitude": "-8.179118"},{"latitude": "54.180238", "user_id": 17, "name": "Patricia Cahill", "longitude": "-5.920898"},{"latitude": "53.0033946", "user_id": 39, "name": "Lisa Ahearn", "longitude": "-6.3877505"},{"latitude": "52.228056", "user_id": 18, "name": "Bob Larkin", "longitude": "-7.915833"},{"latitude": "54.133333", "user_id": 24, "name": "Rose Enright", "longitude": "-6.433333"},{"latitude": "55.033", "user_id": 19, "name": "Enid Cahill", "longitude": "-8.112"},{"latitude": "53.521111", "user_id": 20, "name": "Enid Enright", "longitude": "-9.831111"},{"latitude": "51.802", "user_id": 21, "name": "David Ahearn", "longitude": "-9.442"},{"latitude": "54.374208", "user_id": 22, "name": "Charlie McArdle", "longitude": "-8.371639"},{"latitude": "53.74452", "user_id": 29, "name": "Oliver Ahearn", "longitude": "-7.11167"},{"latitude": "53.761389", "user_id": 30, "name": "Nick Enright", "longitude": "-7.2875"},{"latitude": "54.080556", "user_id": 23, "name": "Eoin Gallagher", "longitude": "-6.361944"},{"latitude": "52.833502", "user_id": 25, "name": "David Behan", "longitude": "-8.522366"}
+[2020-08-29T18:10:21.306] [INFO] index.js - ele = {"latitude": "52.986375", "user_id": 12, "name": "Christina McArdle", "longitude": "-6.043701"}
+[2020-08-29T18:10:21.306] [INFO] utils.js - readFile calculate = 52.986375, -6.043701
+[2020-08-29T18:10:21.307] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.986375","longitude2":"-6.043701"}
+[2020-08-29T18:10:21.309] [INFO] formulas.js - greatCircleDistance distance = 41.7687255008362
+[2020-08-29T18:10:21.310] [INFO] index.js - distance = 41.7687255008362
+[2020-08-29T18:10:21.310] [INFO] index.js - Add Christina McArdle to party List
+[2020-08-29T18:10:21.310] [INFO] index.js - ele = {"latitude": "51.92893", "user_id": 1, "name": "Alice Cahill", "longitude": "-10.27699"}
+[2020-08-29T18:10:21.310] [INFO] utils.js - readFile calculate = 51.92893, -10.27699
+[2020-08-29T18:10:21.310] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"51.92893","longitude2":"-10.27699"}
+[2020-08-29T18:10:21.310] [INFO] formulas.js - greatCircleDistance distance = 313.2556337814158
+[2020-08-29T18:10:21.310] [INFO] index.js - distance = 313.2556337814158
+[2020-08-29T18:10:21.310] [INFO] index.js - ele = {"latitude": "51.8856167", "user_id": 2, "name": "Ian McArdle", "longitude": "-10.4240951"}
+[2020-08-29T18:10:21.310] [INFO] utils.js - readFile calculate = 51.8856167, -10.4240951
+[2020-08-29T18:10:21.310] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"51.8856167","longitude2":"-10.4240951"}
+[2020-08-29T18:10:21.311] [INFO] formulas.js - greatCircleDistance distance = 324.3749120082728
+[2020-08-29T18:10:21.311] [INFO] index.js - distance = 324.3749120082728
+[2020-08-29T18:10:21.311] [INFO] index.js - ele = {"latitude": "52.3191841", "user_id": 3, "name": "Jack Enright", "longitude": "-8.5072391"}
+[2020-08-29T18:10:21.311] [INFO] utils.js - readFile calculate = 52.3191841, -8.5072391
+[2020-08-29T18:10:21.311] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.3191841","longitude2":"-8.5072391"}
+[2020-08-29T18:10:21.311] [INFO] formulas.js - greatCircleDistance distance = 188.9593639387078
+[2020-08-29T18:10:21.311] [INFO] index.js - distance = 188.9593639387078
+[2020-08-29T18:10:21.311] [INFO] index.js - ele = {"latitude": "53.807778", "user_id": 28, "name": "Charlie Halligan", "longitude": "-7.714444"}
+[2020-08-29T18:10:21.311] [INFO] utils.js - readFile calculate = 53.807778, -7.714444
+[2020-08-29T18:10:21.311] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.807778","longitude2":"-7.714444"}
+[2020-08-29T18:10:21.311] [INFO] formulas.js - greatCircleDistance distance = 109.37645542985646
+[2020-08-29T18:10:21.311] [INFO] index.js - distance = 109.37645542985646
+[2020-08-29T18:10:21.311] [INFO] index.js - ele = {"latitude": "53.4692815", "user_id": 7, "name": "Frank Kehoe", "longitude": "-9.436036"}
+[2020-08-29T18:10:21.311] [INFO] utils.js - readFile calculate = 53.4692815, -9.436036
+[2020-08-29T18:10:21.312] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.4692815","longitude2":"-9.436036"}
+[2020-08-29T18:10:21.312] [INFO] formulas.js - greatCircleDistance distance = 211.17205229628533
+[2020-08-29T18:10:21.312] [INFO] index.js - distance = 211.17205229628533
+[2020-08-29T18:10:21.312] [INFO] index.js - ele = {"latitude": "54.0894797", "user_id": 8, "name": "Eoin Ahearn", "longitude": "-6.18671"}
+[2020-08-29T18:10:21.312] [INFO] utils.js - readFile calculate = 54.0894797, -6.18671
+[2020-08-29T18:10:21.312] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"54.0894797","longitude2":"-6.18671"}
+[2020-08-29T18:10:21.312] [INFO] formulas.js - greatCircleDistance distance = 83.5325311678587
+[2020-08-29T18:10:21.312] [INFO] index.js - distance = 83.5325311678587
+[2020-08-29T18:10:21.312] [INFO] index.js - Add Eoin Ahearn to party List
+[2020-08-29T18:10:21.312] [INFO] index.js - ele = {"latitude": "53.038056", "user_id": 26, "name": "Stephen McArdle", "longitude": "-7.653889"}
+[2020-08-29T18:10:21.312] [INFO] utils.js - readFile calculate = 53.038056, -7.653889
+[2020-08-29T18:10:21.312] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.038056","longitude2":"-7.653889"}
+[2020-08-29T18:10:21.312] [INFO] formulas.js - greatCircleDistance distance = 98.87459926458506
+[2020-08-29T18:10:21.312] [INFO] index.js - distance = 98.87459926458506
+[2020-08-29T18:10:21.313] [INFO] index.js - Add Stephen McArdle to party List
+[2020-08-29T18:10:21.313] [INFO] index.js - ele = {"latitude": "54.1225", "user_id": 27, "name": "Enid Gallagher", "longitude": "-8.143333"}
+[2020-08-29T18:10:21.313] [INFO] utils.js - readFile calculate = 54.1225, -8.143333
+[2020-08-29T18:10:21.313] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"54.1225","longitude2":"-8.143333"}
+[2020-08-29T18:10:21.313] [INFO] formulas.js - greatCircleDistance distance = 151.54302371497292
+[2020-08-29T18:10:21.313] [INFO] index.js - distance = 151.54302371497292
+[2020-08-29T18:10:21.313] [INFO] index.js - ele = {"latitude": "53.1229599", "user_id": 6, "name": "Theresa Enright", "longitude": "-6.2705202"}
+[2020-08-29T18:10:21.313] [INFO] utils.js - readFile calculate = 53.1229599, -6.2705202
+[2020-08-29T18:10:21.313] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.1229599","longitude2":"-6.2705202"}
+[2020-08-29T18:10:21.313] [INFO] formulas.js - greatCircleDistance distance = 24.085360019144122
+[2020-08-29T18:10:21.313] [INFO] index.js - distance = 24.085360019144122
+[2020-08-29T18:10:21.313] [INFO] index.js - Add Theresa Enright to party List
+[2020-08-29T18:10:21.313] [INFO] index.js - ele = {"latitude": "52.2559432", "user_id": 9, "name": "Jack Dempsey", "longitude": "-7.1048927"}
+[2020-08-29T18:10:21.313] [INFO] utils.js - readFile calculate = 52.2559432, -7.1048927
+[2020-08-29T18:10:21.314] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.2559432","longitude2":"-7.1048927"}
+[2020-08-29T18:10:21.314] [INFO] formulas.js - greatCircleDistance distance = 133.262332534258
+[2020-08-29T18:10:21.314] [INFO] index.js - distance = 133.262332534258
+[2020-08-29T18:10:21.314] [INFO] index.js - ele = {"latitude": "52.240382", "user_id": 10, "name": "Georgina Gallagher", "longitude": "-6.972413"}
+[2020-08-29T18:10:21.314] [INFO] utils.js - readFile calculate = 52.240382, -6.972413
+[2020-08-29T18:10:21.314] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.240382","longitude2":"-6.972413"}
+[2020-08-29T18:10:21.314] [INFO] formulas.js - greatCircleDistance distance = 131.31804418397596
+[2020-08-29T18:10:21.314] [INFO] index.js - distance = 131.31804418397596
+[2020-08-29T18:10:21.314] [INFO] index.js - ele = {"latitude": "53.2451022", "user_id": 4, "name": "Ian Kehoe", "longitude": "-6.238335"}
+[2020-08-29T18:10:21.314] [INFO] utils.js - readFile calculate = 53.2451022, -6.238335
+[2020-08-29T18:10:21.314] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.2451022","longitude2":"-6.238335"}
+[2020-08-29T18:10:21.314] [INFO] formulas.js - greatCircleDistance distance = 10.566936288868758
+[2020-08-29T18:10:21.315] [INFO] index.js - distance = 10.566936288868758
+[2020-08-29T18:10:21.315] [INFO] index.js - Add Ian Kehoe to party List
+[2020-08-29T18:10:21.315] [INFO] index.js - ele = {"latitude": "53.1302756", "user_id": 5, "name": "Nora Dempsey", "longitude": "-6.2397222"}
+[2020-08-29T18:10:21.315] [INFO] utils.js - readFile calculate = 53.1302756, -6.2397222
+[2020-08-29T18:10:21.315] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.1302756","longitude2":"-6.2397222"}
+[2020-08-29T18:10:21.315] [INFO] formulas.js - greatCircleDistance distance = 23.287320663099482
+[2020-08-29T18:10:21.315] [INFO] index.js - distance = 23.287320663099482
+[2020-08-29T18:10:21.315] [INFO] index.js - Add Nora Dempsey to party List
+[2020-08-29T18:10:21.315] [INFO] index.js - ele = {"latitude": "53.008769", "user_id": 11, "name": "Richard Finnegan", "longitude": "-6.1056711"}
+[2020-08-29T18:10:21.315] [INFO] utils.js - readFile calculate = 53.008769, -6.1056711
+[2020-08-29T18:10:21.315] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.008769","longitude2":"-6.1056711"}
+[2020-08-29T18:10:21.316] [INFO] formulas.js - greatCircleDistance distance = 38.13756809820165
+[2020-08-29T18:10:21.316] [INFO] index.js - distance = 38.13756809820165
+[2020-08-29T18:10:21.316] [INFO] index.js - Add Richard Finnegan to party List
+[2020-08-29T18:10:21.316] [INFO] index.js - ele = {"latitude": "53.1489345", "user_id": 31, "name": "Alan Behan", "longitude": "-6.8422408"}
+[2020-08-29T18:10:21.316] [INFO] utils.js - readFile calculate = 53.1489345, -6.8422408
+[2020-08-29T18:10:21.316] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.1489345","longitude2":"-6.8422408"}
+[2020-08-29T18:10:21.316] [INFO] formulas.js - greatCircleDistance distance = 44.29082235506623
+[2020-08-29T18:10:21.316] [INFO] index.js - distance = 44.29082235506623
+[2020-08-29T18:10:21.316] [INFO] index.js - Add Alan Behan to party List
+[2020-08-29T18:10:21.316] [INFO] index.js - ele = {"latitude": "53", "user_id": 13, "name": "Olive Ahearn", "longitude": "-7"}
+[2020-08-29T18:10:21.316] [INFO] utils.js - readFile calculate = 53, -7
+[2020-08-29T18:10:21.316] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53","longitude2":"-7"}
+[2020-08-29T18:10:21.317] [INFO] formulas.js - greatCircleDistance distance = 62.23170226292825
+[2020-08-29T18:10:21.317] [INFO] index.js - distance = 62.23170226292825
+[2020-08-29T18:10:21.317] [INFO] index.js - Add Olive Ahearn to party List
+[2020-08-29T18:10:21.317] [INFO] index.js - ele = {"latitude": "51.999447", "user_id": 14, "name": "Helen Cahill", "longitude": "-9.742744"}
+[2020-08-29T18:10:21.317] [INFO] utils.js - readFile calculate = 51.999447, -9.742744
+[2020-08-29T18:10:21.317] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"51.999447","longitude2":"-9.742744"}
+[2020-08-29T18:10:21.317] [INFO] formulas.js - greatCircleDistance distance = 278.2067221536596
+[2020-08-29T18:10:21.317] [INFO] index.js - distance = 278.2067221536596
+[2020-08-29T18:10:21.317] [INFO] index.js - ele = {"latitude": "52.966", "user_id": 15, "name": "Michael Ahearn", "longitude": "-6.463"}
+[2020-08-29T18:10:21.317] [INFO] utils.js - readFile calculate = 52.966, -6.463
+[2020-08-29T18:10:21.317] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.966","longitude2":"-6.463"}
+[2020-08-29T18:10:21.317] [INFO] formulas.js - greatCircleDistance distance = 43.72248745925171
+[2020-08-29T18:10:21.318] [INFO] index.js - distance = 43.72248745925171
+[2020-08-29T18:10:21.318] [INFO] index.js - Add Michael Ahearn to party List
+[2020-08-29T18:10:21.318] [INFO] index.js - ele = {"latitude": "52.366037", "user_id": 16, "name": "Ian Larkin", "longitude": "-8.179118"}
+[2020-08-29T18:10:21.318] [INFO] utils.js - readFile calculate = 52.366037, -8.179118
+[2020-08-29T18:10:21.318] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.366037","longitude2":"-8.179118"}
+[2020-08-29T18:10:21.318] [INFO] formulas.js - greatCircleDistance distance = 168.39718202062937
+[2020-08-29T18:10:21.318] [INFO] index.js - distance = 168.39718202062937
+[2020-08-29T18:10:21.318] [INFO] index.js - ele = {"latitude": "54.180238", "user_id": 17, "name": "Patricia Cahill", "longitude": "-5.920898"}
+[2020-08-29T18:10:21.318] [INFO] utils.js - readFile calculate = 54.180238, -5.920898
+[2020-08-29T18:10:21.318] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"54.180238","longitude2":"-5.920898"}
+[2020-08-29T18:10:21.318] [INFO] formulas.js - greatCircleDistance distance = 96.07859923633525
+[2020-08-29T18:10:21.318] [INFO] index.js - distance = 96.07859923633525
+[2020-08-29T18:10:21.319] [INFO] index.js - Add Patricia Cahill to party List
+[2020-08-29T18:10:21.319] [INFO] index.js - ele = {"latitude": "53.0033946", "user_id": 39, "name": "Lisa Ahearn", "longitude": "-6.3877505"}
+[2020-08-29T18:10:21.319] [INFO] utils.js - readFile calculate = 53.0033946, -6.3877505
+[2020-08-29T18:10:21.319] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.0033946","longitude2":"-6.3877505"}
+[2020-08-29T18:10:21.319] [INFO] formulas.js - greatCircleDistance distance = 38.35801477480562
+[2020-08-29T18:10:21.319] [INFO] index.js - distance = 38.35801477480562
+[2020-08-29T18:10:21.319] [INFO] index.js - Add Lisa Ahearn to party List
+[2020-08-29T18:10:21.319] [INFO] index.js - ele = {"latitude": "52.228056", "user_id": 18, "name": "Bob Larkin", "longitude": "-7.915833"}
+[2020-08-29T18:10:21.319] [INFO] utils.js - readFile calculate = 52.228056, -7.915833
+[2020-08-29T18:10:21.319] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.228056","longitude2":"-7.915833"}
+[2020-08-29T18:10:21.319] [INFO] formulas.js - greatCircleDistance distance = 166.44809264264532
+[2020-08-29T18:10:21.320] [INFO] index.js - distance = 166.44809264264532
+[2020-08-29T18:10:21.320] [INFO] index.js - ele = {"latitude": "54.133333", "user_id": 24, "name": "Rose Enright", "longitude": "-6.433333"}
+[2020-08-29T18:10:21.320] [INFO] utils.js - readFile calculate = 54.133333, -6.433333
+[2020-08-29T18:10:21.320] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"54.133333","longitude2":"-6.433333"}
+[2020-08-29T18:10:21.320] [INFO] formulas.js - greatCircleDistance distance = 89.03103382223571
+[2020-08-29T18:10:21.320] [INFO] index.js - distance = 89.03103382223571
+[2020-08-29T18:10:21.320] [INFO] index.js - Add Rose Enright to party List
+[2020-08-29T18:10:21.320] [INFO] index.js - ele = {"latitude": "55.033", "user_id": 19, "name": "Enid Cahill", "longitude": "-8.112"}
+[2020-08-29T18:10:21.320] [INFO] utils.js - readFile calculate = 55.033, -8.112
+[2020-08-29T18:10:21.320] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"55.033","longitude2":"-8.112"}
+[2020-08-29T18:10:21.320] [INFO] formulas.js - greatCircleDistance distance = 223.63496516415296
+[2020-08-29T18:10:21.320] [INFO] index.js - distance = 223.63496516415296
+[2020-08-29T18:10:21.320] [INFO] index.js - ele = {"latitude": "53.521111", "user_id": 20, "name": "Enid Enright", "longitude": "-9.831111"}
+[2020-08-29T18:10:21.321] [INFO] utils.js - readFile calculate = 53.521111, -9.831111
+[2020-08-29T18:10:21.321] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.521111","longitude2":"-9.831111"}
+[2020-08-29T18:10:21.321] [INFO] formulas.js - greatCircleDistance distance = 237.57601503985916
+[2020-08-29T18:10:21.321] [INFO] index.js - distance = 237.57601503985916
+[2020-08-29T18:10:21.321] [INFO] index.js - ele = {"latitude": "51.802", "user_id": 21, "name": "David Ahearn", "longitude": "-9.442"}
+[2020-08-29T18:10:21.321] [INFO] utils.js - readFile calculate = 51.802, -9.442
+[2020-08-29T18:10:21.321] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"51.802","longitude2":"-9.442"}
+[2020-08-29T18:10:21.321] [INFO] formulas.js - greatCircleDistance distance = 274.7978002188137
+[2020-08-29T18:10:21.321] [INFO] index.js - distance = 274.7978002188137
+[2020-08-29T18:10:21.321] [INFO] index.js - ele = {"latitude": "54.374208", "user_id": 22, "name": "Charlie McArdle", "longitude": "-8.371639"}
+[2020-08-29T18:10:21.321] [INFO] utils.js - readFile calculate = 54.374208, -8.371639
+[2020-08-29T18:10:21.321] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"54.374208","longitude2":"-8.371639"}
+[2020-08-29T18:10:21.321] [INFO] formulas.js - greatCircleDistance distance = 180.1552772286623
+[2020-08-29T18:10:21.322] [INFO] index.js - distance = 180.1552772286623
+[2020-08-29T18:10:21.322] [INFO] index.js - ele = {"latitude": "53.74452", "user_id": 29, "name": "Oliver Ahearn", "longitude": "-7.11167"}
+[2020-08-29T18:10:21.322] [INFO] utils.js - readFile calculate = 53.74452, -7.11167
+[2020-08-29T18:10:21.322] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.74452","longitude2":"-7.11167"}
+[2020-08-29T18:10:21.322] [INFO] formulas.js - greatCircleDistance distance = 72.20178549704269
+[2020-08-29T18:10:21.322] [INFO] index.js - distance = 72.20178549704269
+[2020-08-29T18:10:21.322] [INFO] index.js - Add Oliver Ahearn to party List
+[2020-08-29T18:10:21.322] [INFO] index.js - ele = {"latitude": "53.761389", "user_id": 30, "name": "Nick Enright", "longitude": "-7.2875"}
+[2020-08-29T18:10:21.322] [INFO] utils.js - readFile calculate = 53.761389, -7.2875
+[2020-08-29T18:10:21.322] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.761389","longitude2":"-7.2875"}
+[2020-08-29T18:10:21.322] [INFO] formulas.js - greatCircleDistance distance = 82.64284999110231
+[2020-08-29T18:10:21.322] [INFO] index.js - distance = 82.64284999110231
+[2020-08-29T18:10:21.323] [INFO] index.js - Add Nick Enright to party List
+[2020-08-29T18:10:21.323] [INFO] index.js - ele = {"latitude": "54.080556", "user_id": 23, "name": "Eoin Gallagher", "longitude": "-6.361944"}
+[2020-08-29T18:10:21.323] [INFO] utils.js - readFile calculate = 54.080556, -6.361944
+[2020-08-29T18:10:21.323] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"54.080556","longitude2":"-6.361944"}
+[2020-08-29T18:10:21.323] [INFO] formulas.js - greatCircleDistance distance = 82.69492611639981
+[2020-08-29T18:10:21.323] [INFO] index.js - distance = 82.69492611639981
+[2020-08-29T18:10:21.323] [INFO] index.js - Add Eoin Gallagher to party List
+[2020-08-29T18:10:21.323] [INFO] index.js - ele = {"latitude": "52.833502", "user_id": 25, "name": "David Behan", "longitude": "-8.522366"}
+[2020-08-29T18:10:21.323] [INFO] utils.js - readFile calculate = 52.833502, -8.522366
+[2020-08-29T18:10:21.323] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.833502","longitude2":"-8.522366"}
+[2020-08-29T18:10:21.323] [INFO] formulas.js - greatCircleDistance distance = 161.36207870696947
+[2020-08-29T18:10:21.323] [INFO] index.js - distance = 161.36207870696947
+[2020-08-29T18:10:21.576] [TRACE] index.js - Ending
+[2020-08-29T18:10:57.142] [TRACE] index.js - Starting
+[2020-08-29T18:10:57.150] [INFO] utils.js - readFile location = https://s3.amazonaws.com/intercom-take-home-test/customers.txt
+[2020-08-29T18:13:40.457] [TRACE] index.js - Starting
+[2020-08-29T18:14:15.636] [INFO] utils.js - readFile location = https://s3.amazonaws.com/intercom-take-home-test/customers.txt
+[2020-08-29T18:14:16.239] [INFO] index.js - Res = {"latitude": "52.986375", "user_id": 12, "name": "Christina McArdle", "longitude": "-6.043701"},{"latitude": "51.92893", "user_id": 1, "name": "Alice Cahill", "longitude": "-10.27699"},{"latitude": "51.8856167", "user_id": 2, "name": "Ian McArdle", "longitude": "-10.4240951"},{"latitude": "52.3191841", "user_id": 3, "name": "Jack Enright", "longitude": "-8.5072391"},{"latitude": "53.807778", "user_id": 28, "name": "Charlie Halligan", "longitude": "-7.714444"},{"latitude": "53.4692815", "user_id": 7, "name": "Frank Kehoe", "longitude": "-9.436036"},{"latitude": "54.0894797", "user_id": 8, "name": "Eoin Ahearn", "longitude": "-6.18671"},{"latitude": "53.038056", "user_id": 26, "name": "Stephen McArdle", "longitude": "-7.653889"},{"latitude": "54.1225", "user_id": 27, "name": "Enid Gallagher", "longitude": "-8.143333"},{"latitude": "53.1229599", "user_id": 6, "name": "Theresa Enright", "longitude": "-6.2705202"},{"latitude": "52.2559432", "user_id": 9, "name": "Jack Dempsey", "longitude": "-7.1048927"},{"latitude": "52.240382", "user_id": 10, "name": "Georgina Gallagher", "longitude": "-6.972413"},{"latitude": "53.2451022", "user_id": 4, "name": "Ian Kehoe", "longitude": "-6.238335"},{"latitude": "53.1302756", "user_id": 5, "name": "Nora Dempsey", "longitude": "-6.2397222"},{"latitude": "53.008769", "user_id": 11, "name": "Richard Finnegan", "longitude": "-6.1056711"},{"latitude": "53.1489345", "user_id": 31, "name": "Alan Behan", "longitude": "-6.8422408"},{"latitude": "53", "user_id": 13, "name": "Olive Ahearn", "longitude": "-7"},{"latitude": "51.999447", "user_id": 14, "name": "Helen Cahill", "longitude": "-9.742744"},{"latitude": "52.966", "user_id": 15, "name": "Michael Ahearn", "longitude": "-6.463"},{"latitude": "52.366037", "user_id": 16, "name": "Ian Larkin", "longitude": "-8.179118"},{"latitude": "54.180238", "user_id": 17, "name": "Patricia Cahill", "longitude": "-5.920898"},{"latitude": "53.0033946", "user_id": 39, "name": "Lisa Ahearn", "longitude": "-6.3877505"},{"latitude": "52.228056", "user_id": 18, "name": "Bob Larkin", "longitude": "-7.915833"},{"latitude": "54.133333", "user_id": 24, "name": "Rose Enright", "longitude": "-6.433333"},{"latitude": "55.033", "user_id": 19, "name": "Enid Cahill", "longitude": "-8.112"},{"latitude": "53.521111", "user_id": 20, "name": "Enid Enright", "longitude": "-9.831111"},{"latitude": "51.802", "user_id": 21, "name": "David Ahearn", "longitude": "-9.442"},{"latitude": "54.374208", "user_id": 22, "name": "Charlie McArdle", "longitude": "-8.371639"},{"latitude": "53.74452", "user_id": 29, "name": "Oliver Ahearn", "longitude": "-7.11167"},{"latitude": "53.761389", "user_id": 30, "name": "Nick Enright", "longitude": "-7.2875"},{"latitude": "54.080556", "user_id": 23, "name": "Eoin Gallagher", "longitude": "-6.361944"},{"latitude": "52.833502", "user_id": 25, "name": "David Behan", "longitude": "-8.522366"}
+[2020-08-29T18:14:16.239] [INFO] index.js - ele = {"latitude": "52.986375", "user_id": 12, "name": "Christina McArdle", "longitude": "-6.043701"}
+[2020-08-29T18:14:16.240] [INFO] utils.js - readFile calculate = 52.986375, -6.043701
+[2020-08-29T18:14:16.240] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.986375","longitude2":"-6.043701"}
+[2020-08-29T18:14:16.244] [INFO] formulas.js - greatCircleDistance distance = 41.7687255008362
+[2020-08-29T18:14:16.244] [INFO] index.js - distance = 41.7687255008362
+[2020-08-29T18:14:16.244] [INFO] index.js - Add Christina McArdle to party List
+[2020-08-29T18:14:16.244] [INFO] index.js - ele = {"latitude": "51.92893", "user_id": 1, "name": "Alice Cahill", "longitude": "-10.27699"}
+[2020-08-29T18:14:16.244] [INFO] utils.js - readFile calculate = 51.92893, -10.27699
+[2020-08-29T18:14:16.244] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"51.92893","longitude2":"-10.27699"}
+[2020-08-29T18:14:16.244] [INFO] formulas.js - greatCircleDistance distance = 313.2556337814158
+[2020-08-29T18:14:16.245] [INFO] index.js - distance = 313.2556337814158
+[2020-08-29T18:14:16.245] [INFO] index.js - ele = {"latitude": "51.8856167", "user_id": 2, "name": "Ian McArdle", "longitude": "-10.4240951"}
+[2020-08-29T18:14:16.245] [INFO] utils.js - readFile calculate = 51.8856167, -10.4240951
+[2020-08-29T18:14:16.245] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"51.8856167","longitude2":"-10.4240951"}
+[2020-08-29T18:14:16.245] [INFO] formulas.js - greatCircleDistance distance = 324.3749120082728
+[2020-08-29T18:14:16.245] [INFO] index.js - distance = 324.3749120082728
+[2020-08-29T18:14:16.245] [INFO] index.js - ele = {"latitude": "52.3191841", "user_id": 3, "name": "Jack Enright", "longitude": "-8.5072391"}
+[2020-08-29T18:14:16.245] [INFO] utils.js - readFile calculate = 52.3191841, -8.5072391
+[2020-08-29T18:14:16.245] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.3191841","longitude2":"-8.5072391"}
+[2020-08-29T18:14:16.245] [INFO] formulas.js - greatCircleDistance distance = 188.9593639387078
+[2020-08-29T18:14:16.245] [INFO] index.js - distance = 188.9593639387078
+[2020-08-29T18:14:16.246] [INFO] index.js - ele = {"latitude": "53.807778", "user_id": 28, "name": "Charlie Halligan", "longitude": "-7.714444"}
+[2020-08-29T18:14:16.246] [INFO] utils.js - readFile calculate = 53.807778, -7.714444
+[2020-08-29T18:14:16.246] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.807778","longitude2":"-7.714444"}
+[2020-08-29T18:14:16.246] [INFO] formulas.js - greatCircleDistance distance = 109.37645542985646
+[2020-08-29T18:14:16.246] [INFO] index.js - distance = 109.37645542985646
+[2020-08-29T18:14:16.246] [INFO] index.js - ele = {"latitude": "53.4692815", "user_id": 7, "name": "Frank Kehoe", "longitude": "-9.436036"}
+[2020-08-29T18:14:16.246] [INFO] utils.js - readFile calculate = 53.4692815, -9.436036
+[2020-08-29T18:14:16.246] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.4692815","longitude2":"-9.436036"}
+[2020-08-29T18:14:16.246] [INFO] formulas.js - greatCircleDistance distance = 211.17205229628533
+[2020-08-29T18:14:16.246] [INFO] index.js - distance = 211.17205229628533
+[2020-08-29T18:14:16.246] [INFO] index.js - ele = {"latitude": "54.0894797", "user_id": 8, "name": "Eoin Ahearn", "longitude": "-6.18671"}
+[2020-08-29T18:14:16.247] [INFO] utils.js - readFile calculate = 54.0894797, -6.18671
+[2020-08-29T18:14:16.247] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"54.0894797","longitude2":"-6.18671"}
+[2020-08-29T18:14:16.247] [INFO] formulas.js - greatCircleDistance distance = 83.5325311678587
+[2020-08-29T18:14:16.247] [INFO] index.js - distance = 83.5325311678587
+[2020-08-29T18:14:16.247] [INFO] index.js - Add Eoin Ahearn to party List
+[2020-08-29T18:14:16.247] [INFO] index.js - ele = {"latitude": "53.038056", "user_id": 26, "name": "Stephen McArdle", "longitude": "-7.653889"}
+[2020-08-29T18:14:16.247] [INFO] utils.js - readFile calculate = 53.038056, -7.653889
+[2020-08-29T18:14:16.247] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.038056","longitude2":"-7.653889"}
+[2020-08-29T18:14:16.247] [INFO] formulas.js - greatCircleDistance distance = 98.87459926458506
+[2020-08-29T18:14:16.247] [INFO] index.js - distance = 98.87459926458506
+[2020-08-29T18:14:16.248] [INFO] index.js - Add Stephen McArdle to party List
+[2020-08-29T18:14:16.248] [INFO] index.js - ele = {"latitude": "54.1225", "user_id": 27, "name": "Enid Gallagher", "longitude": "-8.143333"}
+[2020-08-29T18:14:16.248] [INFO] utils.js - readFile calculate = 54.1225, -8.143333
+[2020-08-29T18:14:16.248] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"54.1225","longitude2":"-8.143333"}
+[2020-08-29T18:14:16.248] [INFO] formulas.js - greatCircleDistance distance = 151.54302371497292
+[2020-08-29T18:14:16.248] [INFO] index.js - distance = 151.54302371497292
+[2020-08-29T18:14:16.248] [INFO] index.js - ele = {"latitude": "53.1229599", "user_id": 6, "name": "Theresa Enright", "longitude": "-6.2705202"}
+[2020-08-29T18:14:16.248] [INFO] utils.js - readFile calculate = 53.1229599, -6.2705202
+[2020-08-29T18:14:16.248] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.1229599","longitude2":"-6.2705202"}
+[2020-08-29T18:14:16.248] [INFO] formulas.js - greatCircleDistance distance = 24.085360019144122
+[2020-08-29T18:14:16.248] [INFO] index.js - distance = 24.085360019144122
+[2020-08-29T18:14:16.249] [INFO] index.js - Add Theresa Enright to party List
+[2020-08-29T18:14:16.249] [INFO] index.js - ele = {"latitude": "52.2559432", "user_id": 9, "name": "Jack Dempsey", "longitude": "-7.1048927"}
+[2020-08-29T18:14:16.249] [INFO] utils.js - readFile calculate = 52.2559432, -7.1048927
+[2020-08-29T18:14:16.249] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.2559432","longitude2":"-7.1048927"}
+[2020-08-29T18:14:16.249] [INFO] formulas.js - greatCircleDistance distance = 133.262332534258
+[2020-08-29T18:14:16.249] [INFO] index.js - distance = 133.262332534258
+[2020-08-29T18:14:16.249] [INFO] index.js - ele = {"latitude": "52.240382", "user_id": 10, "name": "Georgina Gallagher", "longitude": "-6.972413"}
+[2020-08-29T18:14:16.249] [INFO] utils.js - readFile calculate = 52.240382, -6.972413
+[2020-08-29T18:14:16.249] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.240382","longitude2":"-6.972413"}
+[2020-08-29T18:14:16.249] [INFO] formulas.js - greatCircleDistance distance = 131.31804418397596
+[2020-08-29T18:14:16.249] [INFO] index.js - distance = 131.31804418397596
+[2020-08-29T18:14:16.249] [INFO] index.js - ele = {"latitude": "53.2451022", "user_id": 4, "name": "Ian Kehoe", "longitude": "-6.238335"}
+[2020-08-29T18:14:16.250] [INFO] utils.js - readFile calculate = 53.2451022, -6.238335
+[2020-08-29T18:14:16.250] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.2451022","longitude2":"-6.238335"}
+[2020-08-29T18:14:16.250] [INFO] formulas.js - greatCircleDistance distance = 10.566936288868758
+[2020-08-29T18:14:16.250] [INFO] index.js - distance = 10.566936288868758
+[2020-08-29T18:14:16.250] [INFO] index.js - Add Ian Kehoe to party List
+[2020-08-29T18:14:16.250] [INFO] index.js - ele = {"latitude": "53.1302756", "user_id": 5, "name": "Nora Dempsey", "longitude": "-6.2397222"}
+[2020-08-29T18:14:16.252] [INFO] utils.js - readFile calculate = 53.1302756, -6.2397222
+[2020-08-29T18:14:16.253] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.1302756","longitude2":"-6.2397222"}
+[2020-08-29T18:14:16.253] [INFO] formulas.js - greatCircleDistance distance = 23.287320663099482
+[2020-08-29T18:14:16.253] [INFO] index.js - distance = 23.287320663099482
+[2020-08-29T18:14:16.253] [INFO] index.js - Add Nora Dempsey to party List
+[2020-08-29T18:14:16.253] [INFO] index.js - ele = {"latitude": "53.008769", "user_id": 11, "name": "Richard Finnegan", "longitude": "-6.1056711"}
+[2020-08-29T18:14:16.253] [INFO] utils.js - readFile calculate = 53.008769, -6.1056711
+[2020-08-29T18:14:16.253] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.008769","longitude2":"-6.1056711"}
+[2020-08-29T18:14:16.253] [INFO] formulas.js - greatCircleDistance distance = 38.13756809820165
+[2020-08-29T18:14:16.254] [INFO] index.js - distance = 38.13756809820165
+[2020-08-29T18:14:16.254] [INFO] index.js - Add Richard Finnegan to party List
+[2020-08-29T18:14:16.254] [INFO] index.js - ele = {"latitude": "53.1489345", "user_id": 31, "name": "Alan Behan", "longitude": "-6.8422408"}
+[2020-08-29T18:14:16.254] [INFO] utils.js - readFile calculate = 53.1489345, -6.8422408
+[2020-08-29T18:14:16.254] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.1489345","longitude2":"-6.8422408"}
+[2020-08-29T18:14:16.254] [INFO] formulas.js - greatCircleDistance distance = 44.29082235506623
+[2020-08-29T18:14:16.254] [INFO] index.js - distance = 44.29082235506623
+[2020-08-29T18:14:16.254] [INFO] index.js - Add Alan Behan to party List
+[2020-08-29T18:14:16.254] [INFO] index.js - ele = {"latitude": "53", "user_id": 13, "name": "Olive Ahearn", "longitude": "-7"}
+[2020-08-29T18:14:16.255] [INFO] utils.js - readFile calculate = 53, -7
+[2020-08-29T18:14:16.255] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53","longitude2":"-7"}
+[2020-08-29T18:14:16.255] [INFO] formulas.js - greatCircleDistance distance = 62.23170226292825
+[2020-08-29T18:14:16.255] [INFO] index.js - distance = 62.23170226292825
+[2020-08-29T18:14:16.255] [INFO] index.js - Add Olive Ahearn to party List
+[2020-08-29T18:14:16.255] [INFO] index.js - ele = {"latitude": "51.999447", "user_id": 14, "name": "Helen Cahill", "longitude": "-9.742744"}
+[2020-08-29T18:14:16.255] [INFO] utils.js - readFile calculate = 51.999447, -9.742744
+[2020-08-29T18:14:16.255] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"51.999447","longitude2":"-9.742744"}
+[2020-08-29T18:14:16.255] [INFO] formulas.js - greatCircleDistance distance = 278.2067221536596
+[2020-08-29T18:14:16.255] [INFO] index.js - distance = 278.2067221536596
+[2020-08-29T18:14:16.256] [INFO] index.js - ele = {"latitude": "52.966", "user_id": 15, "name": "Michael Ahearn", "longitude": "-6.463"}
+[2020-08-29T18:14:16.256] [INFO] utils.js - readFile calculate = 52.966, -6.463
+[2020-08-29T18:14:16.256] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.966","longitude2":"-6.463"}
+[2020-08-29T18:14:16.256] [INFO] formulas.js - greatCircleDistance distance = 43.72248745925171
+[2020-08-29T18:14:16.256] [INFO] index.js - distance = 43.72248745925171
+[2020-08-29T18:14:16.256] [INFO] index.js - Add Michael Ahearn to party List
+[2020-08-29T18:14:16.256] [INFO] index.js - ele = {"latitude": "52.366037", "user_id": 16, "name": "Ian Larkin", "longitude": "-8.179118"}
+[2020-08-29T18:14:16.256] [INFO] utils.js - readFile calculate = 52.366037, -8.179118
+[2020-08-29T18:14:16.256] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.366037","longitude2":"-8.179118"}
+[2020-08-29T18:14:16.256] [INFO] formulas.js - greatCircleDistance distance = 168.39718202062937
+[2020-08-29T18:14:16.257] [INFO] index.js - distance = 168.39718202062937
+[2020-08-29T18:14:16.257] [INFO] index.js - ele = {"latitude": "54.180238", "user_id": 17, "name": "Patricia Cahill", "longitude": "-5.920898"}
+[2020-08-29T18:14:16.257] [INFO] utils.js - readFile calculate = 54.180238, -5.920898
+[2020-08-29T18:14:16.257] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"54.180238","longitude2":"-5.920898"}
+[2020-08-29T18:14:16.257] [INFO] formulas.js - greatCircleDistance distance = 96.07859923633525
+[2020-08-29T18:14:16.257] [INFO] index.js - distance = 96.07859923633525
+[2020-08-29T18:14:16.257] [INFO] index.js - Add Patricia Cahill to party List
+[2020-08-29T18:14:16.257] [INFO] index.js - ele = {"latitude": "53.0033946", "user_id": 39, "name": "Lisa Ahearn", "longitude": "-6.3877505"}
+[2020-08-29T18:14:16.257] [INFO] utils.js - readFile calculate = 53.0033946, -6.3877505
+[2020-08-29T18:14:16.257] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.0033946","longitude2":"-6.3877505"}
+[2020-08-29T18:14:16.258] [INFO] formulas.js - greatCircleDistance distance = 38.35801477480562
+[2020-08-29T18:14:16.258] [INFO] index.js - distance = 38.35801477480562
+[2020-08-29T18:14:16.258] [INFO] index.js - Add Lisa Ahearn to party List
+[2020-08-29T18:14:16.258] [INFO] index.js - ele = {"latitude": "52.228056", "user_id": 18, "name": "Bob Larkin", "longitude": "-7.915833"}
+[2020-08-29T18:14:16.258] [INFO] utils.js - readFile calculate = 52.228056, -7.915833
+[2020-08-29T18:14:16.258] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.228056","longitude2":"-7.915833"}
+[2020-08-29T18:14:16.258] [INFO] formulas.js - greatCircleDistance distance = 166.44809264264532
+[2020-08-29T18:14:16.258] [INFO] index.js - distance = 166.44809264264532
+[2020-08-29T18:14:16.258] [INFO] index.js - ele = {"latitude": "54.133333", "user_id": 24, "name": "Rose Enright", "longitude": "-6.433333"}
+[2020-08-29T18:14:16.259] [INFO] utils.js - readFile calculate = 54.133333, -6.433333
+[2020-08-29T18:14:16.259] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"54.133333","longitude2":"-6.433333"}
+[2020-08-29T18:14:16.259] [INFO] formulas.js - greatCircleDistance distance = 89.03103382223571
+[2020-08-29T18:14:16.259] [INFO] index.js - distance = 89.03103382223571
+[2020-08-29T18:14:16.259] [INFO] index.js - Add Rose Enright to party List
+[2020-08-29T18:14:16.259] [INFO] index.js - ele = {"latitude": "55.033", "user_id": 19, "name": "Enid Cahill", "longitude": "-8.112"}
+[2020-08-29T18:14:16.259] [INFO] utils.js - readFile calculate = 55.033, -8.112
+[2020-08-29T18:14:16.259] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"55.033","longitude2":"-8.112"}
+[2020-08-29T18:14:16.259] [INFO] formulas.js - greatCircleDistance distance = 223.63496516415296
+[2020-08-29T18:14:16.259] [INFO] index.js - distance = 223.63496516415296
+[2020-08-29T18:14:16.259] [INFO] index.js - ele = {"latitude": "53.521111", "user_id": 20, "name": "Enid Enright", "longitude": "-9.831111"}
+[2020-08-29T18:14:16.260] [INFO] utils.js - readFile calculate = 53.521111, -9.831111
+[2020-08-29T18:14:16.260] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.521111","longitude2":"-9.831111"}
+[2020-08-29T18:14:16.260] [INFO] formulas.js - greatCircleDistance distance = 237.57601503985916
+[2020-08-29T18:14:16.260] [INFO] index.js - distance = 237.57601503985916
+[2020-08-29T18:14:16.260] [INFO] index.js - ele = {"latitude": "51.802", "user_id": 21, "name": "David Ahearn", "longitude": "-9.442"}
+[2020-08-29T18:14:16.260] [INFO] utils.js - readFile calculate = 51.802, -9.442
+[2020-08-29T18:14:16.260] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"51.802","longitude2":"-9.442"}
+[2020-08-29T18:14:16.260] [INFO] formulas.js - greatCircleDistance distance = 274.7978002188137
+[2020-08-29T18:14:16.260] [INFO] index.js - distance = 274.7978002188137
+[2020-08-29T18:14:16.260] [INFO] index.js - ele = {"latitude": "54.374208", "user_id": 22, "name": "Charlie McArdle", "longitude": "-8.371639"}
+[2020-08-29T18:14:16.261] [INFO] utils.js - readFile calculate = 54.374208, -8.371639
+[2020-08-29T18:14:16.261] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"54.374208","longitude2":"-8.371639"}
+[2020-08-29T18:14:16.261] [INFO] formulas.js - greatCircleDistance distance = 180.1552772286623
+[2020-08-29T18:14:16.261] [INFO] index.js - distance = 180.1552772286623
+[2020-08-29T18:14:16.261] [INFO] index.js - ele = {"latitude": "53.74452", "user_id": 29, "name": "Oliver Ahearn", "longitude": "-7.11167"}
+[2020-08-29T18:14:16.261] [INFO] utils.js - readFile calculate = 53.74452, -7.11167
+[2020-08-29T18:14:16.261] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.74452","longitude2":"-7.11167"}
+[2020-08-29T18:14:16.261] [INFO] formulas.js - greatCircleDistance distance = 72.20178549704269
+[2020-08-29T18:14:16.261] [INFO] index.js - distance = 72.20178549704269
+[2020-08-29T18:14:16.261] [INFO] index.js - Add Oliver Ahearn to party List
+[2020-08-29T18:14:16.261] [INFO] index.js - ele = {"latitude": "53.761389", "user_id": 30, "name": "Nick Enright", "longitude": "-7.2875"}
+[2020-08-29T18:14:16.262] [INFO] utils.js - readFile calculate = 53.761389, -7.2875
+[2020-08-29T18:14:16.262] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.761389","longitude2":"-7.2875"}
+[2020-08-29T18:14:16.262] [INFO] formulas.js - greatCircleDistance distance = 82.64284999110231
+[2020-08-29T18:14:16.262] [INFO] index.js - distance = 82.64284999110231
+[2020-08-29T18:14:16.262] [INFO] index.js - Add Nick Enright to party List
+[2020-08-29T18:14:16.262] [INFO] index.js - ele = {"latitude": "54.080556", "user_id": 23, "name": "Eoin Gallagher", "longitude": "-6.361944"}
+[2020-08-29T18:14:16.262] [INFO] utils.js - readFile calculate = 54.080556, -6.361944
+[2020-08-29T18:14:16.262] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"54.080556","longitude2":"-6.361944"}
+[2020-08-29T18:14:16.262] [INFO] formulas.js - greatCircleDistance distance = 82.69492611639981
+[2020-08-29T18:14:16.262] [INFO] index.js - distance = 82.69492611639981
+[2020-08-29T18:14:16.262] [INFO] index.js - Add Eoin Gallagher to party List
+[2020-08-29T18:14:16.263] [INFO] index.js - ele = {"latitude": "52.833502", "user_id": 25, "name": "David Behan", "longitude": "-8.522366"}
+[2020-08-29T18:14:16.263] [INFO] utils.js - readFile calculate = 52.833502, -8.522366
+[2020-08-29T18:14:16.263] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.833502","longitude2":"-8.522366"}
+[2020-08-29T18:14:16.263] [INFO] formulas.js - greatCircleDistance distance = 161.36207870696947
+[2020-08-29T18:14:16.263] [INFO] index.js - distance = 161.36207870696947
+[2020-08-29T18:14:16.585] [TRACE] index.js - Ending
+[2020-08-29T18:14:50.299] [TRACE] index.js - Starting
+[2020-08-29T18:14:50.310] [INFO] utils.js - readFile location = https://s3.amazonaws.com/intercom-take-home-test/customers.txt
+[2020-09-08T13:26:20.679] [TRACE] index.js - Starting
+[2020-09-08T13:26:20.683] [INFO] utils.js - readFile location = https://s3.amazonaws.com/intercom-take-home-test/customers.txt
+[2020-09-08T13:26:21.351] [INFO] index.js - Res = {"latitude": "52.986375", "user_id": 12, "name": "Christina McArdle", "longitude": "-6.043701"},{"latitude": "51.92893", "user_id": 1, "name": "Alice Cahill", "longitude": "-10.27699"},{"latitude": "51.8856167", "user_id": 2, "name": "Ian McArdle", "longitude": "-10.4240951"},{"latitude": "52.3191841", "user_id": 3, "name": "Jack Enright", "longitude": "-8.5072391"},{"latitude": "53.807778", "user_id": 28, "name": "Charlie Halligan", "longitude": "-7.714444"},{"latitude": "53.4692815", "user_id": 7, "name": "Frank Kehoe", "longitude": "-9.436036"},{"latitude": "54.0894797", "user_id": 8, "name": "Eoin Ahearn", "longitude": "-6.18671"},{"latitude": "53.038056", "user_id": 26, "name": "Stephen McArdle", "longitude": "-7.653889"},{"latitude": "54.1225", "user_id": 27, "name": "Enid Gallagher", "longitude": "-8.143333"},{"latitude": "53.1229599", "user_id": 6, "name": "Theresa Enright", "longitude": "-6.2705202"},{"latitude": "52.2559432", "user_id": 9, "name": "Jack Dempsey", "longitude": "-7.1048927"},{"latitude": "52.240382", "user_id": 10, "name": "Georgina Gallagher", "longitude": "-6.972413"},{"latitude": "53.2451022", "user_id": 4, "name": "Ian Kehoe", "longitude": "-6.238335"},{"latitude": "53.1302756", "user_id": 5, "name": "Nora Dempsey", "longitude": "-6.2397222"},{"latitude": "53.008769", "user_id": 11, "name": "Richard Finnegan", "longitude": "-6.1056711"},{"latitude": "53.1489345", "user_id": 31, "name": "Alan Behan", "longitude": "-6.8422408"},{"latitude": "53", "user_id": 13, "name": "Olive Ahearn", "longitude": "-7"},{"latitude": "51.999447", "user_id": 14, "name": "Helen Cahill", "longitude": "-9.742744"},{"latitude": "52.966", "user_id": 15, "name": "Michael Ahearn", "longitude": "-6.463"},{"latitude": "52.366037", "user_id": 16, "name": "Ian Larkin", "longitude": "-8.179118"},{"latitude": "54.180238", "user_id": 17, "name": "Patricia Cahill", "longitude": "-5.920898"},{"latitude": "53.0033946", "user_id": 39, "name": "Lisa Ahearn", "longitude": "-6.3877505"},{"latitude": "52.228056", "user_id": 18, "name": "Bob Larkin", "longitude": "-7.915833"},{"latitude": "54.133333", "user_id": 24, "name": "Rose Enright", "longitude": "-6.433333"},{"latitude": "55.033", "user_id": 19, "name": "Enid Cahill", "longitude": "-8.112"},{"latitude": "53.521111", "user_id": 20, "name": "Enid Enright", "longitude": "-9.831111"},{"latitude": "51.802", "user_id": 21, "name": "David Ahearn", "longitude": "-9.442"},{"latitude": "54.374208", "user_id": 22, "name": "Charlie McArdle", "longitude": "-8.371639"},{"latitude": "53.74452", "user_id": 29, "name": "Oliver Ahearn", "longitude": "-7.11167"},{"latitude": "53.761389", "user_id": 30, "name": "Nick Enright", "longitude": "-7.2875"},{"latitude": "54.080556", "user_id": 23, "name": "Eoin Gallagher", "longitude": "-6.361944"},{"latitude": "52.833502", "user_id": 25, "name": "David Behan", "longitude": "-8.522366"}
+[2020-09-08T13:26:21.351] [INFO] index.js - ele = {"latitude": "52.986375", "user_id": 12, "name": "Christina McArdle", "longitude": "-6.043701"}
+[2020-09-08T13:26:21.351] [INFO] utils.js - readFile calculate = 52.986375, -6.043701
+[2020-09-08T13:26:21.351] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.986375","longitude2":"-6.043701"}
+[2020-09-08T13:26:21.352] [INFO] formulas.js - greatCircleDistance distance = 41.7687255008362
+[2020-09-08T13:26:21.352] [INFO] index.js - distance = 41.7687255008362
+[2020-09-08T13:26:21.352] [INFO] index.js - Add Christina McArdle to party List
+[2020-09-08T13:26:21.352] [INFO] index.js - ele = {"latitude": "51.92893", "user_id": 1, "name": "Alice Cahill", "longitude": "-10.27699"}
+[2020-09-08T13:26:21.353] [INFO] utils.js - readFile calculate = 51.92893, -10.27699
+[2020-09-08T13:26:21.353] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"51.92893","longitude2":"-10.27699"}
+[2020-09-08T13:26:21.353] [INFO] formulas.js - greatCircleDistance distance = 313.2556337814158
+[2020-09-08T13:26:21.353] [INFO] index.js - distance = 313.2556337814158
+[2020-09-08T13:26:21.353] [INFO] index.js - ele = {"latitude": "51.8856167", "user_id": 2, "name": "Ian McArdle", "longitude": "-10.4240951"}
+[2020-09-08T13:26:21.353] [INFO] utils.js - readFile calculate = 51.8856167, -10.4240951
+[2020-09-08T13:26:21.353] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"51.8856167","longitude2":"-10.4240951"}
+[2020-09-08T13:26:21.353] [INFO] formulas.js - greatCircleDistance distance = 324.3749120082728
+[2020-09-08T13:26:21.353] [INFO] index.js - distance = 324.3749120082728
+[2020-09-08T13:26:21.353] [INFO] index.js - ele = {"latitude": "52.3191841", "user_id": 3, "name": "Jack Enright", "longitude": "-8.5072391"}
+[2020-09-08T13:26:21.353] [INFO] utils.js - readFile calculate = 52.3191841, -8.5072391
+[2020-09-08T13:26:21.353] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.3191841","longitude2":"-8.5072391"}
+[2020-09-08T13:26:21.353] [INFO] formulas.js - greatCircleDistance distance = 188.9593639387078
+[2020-09-08T13:26:21.353] [INFO] index.js - distance = 188.9593639387078
+[2020-09-08T13:26:21.353] [INFO] index.js - ele = {"latitude": "53.807778", "user_id": 28, "name": "Charlie Halligan", "longitude": "-7.714444"}
+[2020-09-08T13:26:21.353] [INFO] utils.js - readFile calculate = 53.807778, -7.714444
+[2020-09-08T13:26:21.353] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.807778","longitude2":"-7.714444"}
+[2020-09-08T13:26:21.353] [INFO] formulas.js - greatCircleDistance distance = 109.37645542985646
+[2020-09-08T13:26:21.353] [INFO] index.js - distance = 109.37645542985646
+[2020-09-08T13:26:21.353] [INFO] index.js - ele = {"latitude": "53.4692815", "user_id": 7, "name": "Frank Kehoe", "longitude": "-9.436036"}
+[2020-09-08T13:26:21.353] [INFO] utils.js - readFile calculate = 53.4692815, -9.436036
+[2020-09-08T13:26:21.353] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.4692815","longitude2":"-9.436036"}
+[2020-09-08T13:26:21.353] [INFO] formulas.js - greatCircleDistance distance = 211.17205229628533
+[2020-09-08T13:26:21.353] [INFO] index.js - distance = 211.17205229628533
+[2020-09-08T13:26:21.353] [INFO] index.js - ele = {"latitude": "54.0894797", "user_id": 8, "name": "Eoin Ahearn", "longitude": "-6.18671"}
+[2020-09-08T13:26:21.353] [INFO] utils.js - readFile calculate = 54.0894797, -6.18671
+[2020-09-08T13:26:21.353] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"54.0894797","longitude2":"-6.18671"}
+[2020-09-08T13:26:21.353] [INFO] formulas.js - greatCircleDistance distance = 83.5325311678587
+[2020-09-08T13:26:21.353] [INFO] index.js - distance = 83.5325311678587
+[2020-09-08T13:26:21.353] [INFO] index.js - Add Eoin Ahearn to party List
+[2020-09-08T13:26:21.353] [INFO] index.js - ele = {"latitude": "53.038056", "user_id": 26, "name": "Stephen McArdle", "longitude": "-7.653889"}
+[2020-09-08T13:26:21.353] [INFO] utils.js - readFile calculate = 53.038056, -7.653889
+[2020-09-08T13:26:21.353] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.038056","longitude2":"-7.653889"}
+[2020-09-08T13:26:21.353] [INFO] formulas.js - greatCircleDistance distance = 98.87459926458506
+[2020-09-08T13:26:21.353] [INFO] index.js - distance = 98.87459926458506
+[2020-09-08T13:26:21.353] [INFO] index.js - Add Stephen McArdle to party List
+[2020-09-08T13:26:21.353] [INFO] index.js - ele = {"latitude": "54.1225", "user_id": 27, "name": "Enid Gallagher", "longitude": "-8.143333"}
+[2020-09-08T13:26:21.353] [INFO] utils.js - readFile calculate = 54.1225, -8.143333
+[2020-09-08T13:26:21.353] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"54.1225","longitude2":"-8.143333"}
+[2020-09-08T13:26:21.353] [INFO] formulas.js - greatCircleDistance distance = 151.54302371497292
+[2020-09-08T13:26:21.353] [INFO] index.js - distance = 151.54302371497292
+[2020-09-08T13:26:21.353] [INFO] index.js - ele = {"latitude": "53.1229599", "user_id": 6, "name": "Theresa Enright", "longitude": "-6.2705202"}
+[2020-09-08T13:26:21.353] [INFO] utils.js - readFile calculate = 53.1229599, -6.2705202
+[2020-09-08T13:26:21.353] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.1229599","longitude2":"-6.2705202"}
+[2020-09-08T13:26:21.353] [INFO] formulas.js - greatCircleDistance distance = 24.085360019144122
+[2020-09-08T13:26:21.353] [INFO] index.js - distance = 24.085360019144122
+[2020-09-08T13:26:21.353] [INFO] index.js - Add Theresa Enright to party List
+[2020-09-08T13:26:21.353] [INFO] index.js - ele = {"latitude": "52.2559432", "user_id": 9, "name": "Jack Dempsey", "longitude": "-7.1048927"}
+[2020-09-08T13:26:21.353] [INFO] utils.js - readFile calculate = 52.2559432, -7.1048927
+[2020-09-08T13:26:21.353] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.2559432","longitude2":"-7.1048927"}
+[2020-09-08T13:26:21.353] [INFO] formulas.js - greatCircleDistance distance = 133.262332534258
+[2020-09-08T13:26:21.354] [INFO] index.js - distance = 133.262332534258
+[2020-09-08T13:26:21.354] [INFO] index.js - ele = {"latitude": "52.240382", "user_id": 10, "name": "Georgina Gallagher", "longitude": "-6.972413"}
+[2020-09-08T13:26:21.354] [INFO] utils.js - readFile calculate = 52.240382, -6.972413
+[2020-09-08T13:26:21.354] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.240382","longitude2":"-6.972413"}
+[2020-09-08T13:26:21.354] [INFO] formulas.js - greatCircleDistance distance = 131.31804418397596
+[2020-09-08T13:26:21.354] [INFO] index.js - distance = 131.31804418397596
+[2020-09-08T13:26:21.354] [INFO] index.js - ele = {"latitude": "53.2451022", "user_id": 4, "name": "Ian Kehoe", "longitude": "-6.238335"}
+[2020-09-08T13:26:21.354] [INFO] utils.js - readFile calculate = 53.2451022, -6.238335
+[2020-09-08T13:26:21.354] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.2451022","longitude2":"-6.238335"}
+[2020-09-08T13:26:21.354] [INFO] formulas.js - greatCircleDistance distance = 10.566936288868758
+[2020-09-08T13:26:21.354] [INFO] index.js - distance = 10.566936288868758
+[2020-09-08T13:26:21.354] [INFO] index.js - Add Ian Kehoe to party List
+[2020-09-08T13:26:21.354] [INFO] index.js - ele = {"latitude": "53.1302756", "user_id": 5, "name": "Nora Dempsey", "longitude": "-6.2397222"}
+[2020-09-08T13:26:21.354] [INFO] utils.js - readFile calculate = 53.1302756, -6.2397222
+[2020-09-08T13:26:21.354] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.1302756","longitude2":"-6.2397222"}
+[2020-09-08T13:26:21.354] [INFO] formulas.js - greatCircleDistance distance = 23.287320663099482
+[2020-09-08T13:26:21.354] [INFO] index.js - distance = 23.287320663099482
+[2020-09-08T13:26:21.354] [INFO] index.js - Add Nora Dempsey to party List
+[2020-09-08T13:26:21.354] [INFO] index.js - ele = {"latitude": "53.008769", "user_id": 11, "name": "Richard Finnegan", "longitude": "-6.1056711"}
+[2020-09-08T13:26:21.354] [INFO] utils.js - readFile calculate = 53.008769, -6.1056711
+[2020-09-08T13:26:21.354] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.008769","longitude2":"-6.1056711"}
+[2020-09-08T13:26:21.354] [INFO] formulas.js - greatCircleDistance distance = 38.13756809820165
+[2020-09-08T13:26:21.354] [INFO] index.js - distance = 38.13756809820165
+[2020-09-08T13:26:21.354] [INFO] index.js - Add Richard Finnegan to party List
+[2020-09-08T13:26:21.354] [INFO] index.js - ele = {"latitude": "53.1489345", "user_id": 31, "name": "Alan Behan", "longitude": "-6.8422408"}
+[2020-09-08T13:26:21.354] [INFO] utils.js - readFile calculate = 53.1489345, -6.8422408
+[2020-09-08T13:26:21.354] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.1489345","longitude2":"-6.8422408"}
+[2020-09-08T13:26:21.354] [INFO] formulas.js - greatCircleDistance distance = 44.29082235506623
+[2020-09-08T13:26:21.354] [INFO] index.js - distance = 44.29082235506623
+[2020-09-08T13:26:21.354] [INFO] index.js - Add Alan Behan to party List
+[2020-09-08T13:26:21.354] [INFO] index.js - ele = {"latitude": "53", "user_id": 13, "name": "Olive Ahearn", "longitude": "-7"}
+[2020-09-08T13:26:21.354] [INFO] utils.js - readFile calculate = 53, -7
+[2020-09-08T13:26:21.354] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53","longitude2":"-7"}
+[2020-09-08T13:26:21.354] [INFO] formulas.js - greatCircleDistance distance = 62.23170226292825
+[2020-09-08T13:26:21.354] [INFO] index.js - distance = 62.23170226292825
+[2020-09-08T13:26:21.354] [INFO] index.js - Add Olive Ahearn to party List
+[2020-09-08T13:26:21.354] [INFO] index.js - ele = {"latitude": "51.999447", "user_id": 14, "name": "Helen Cahill", "longitude": "-9.742744"}
+[2020-09-08T13:26:21.354] [INFO] utils.js - readFile calculate = 51.999447, -9.742744
+[2020-09-08T13:26:21.354] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"51.999447","longitude2":"-9.742744"}
+[2020-09-08T13:26:21.354] [INFO] formulas.js - greatCircleDistance distance = 278.2067221536596
+[2020-09-08T13:26:21.354] [INFO] index.js - distance = 278.2067221536596
+[2020-09-08T13:26:21.354] [INFO] index.js - ele = {"latitude": "52.966", "user_id": 15, "name": "Michael Ahearn", "longitude": "-6.463"}
+[2020-09-08T13:26:21.354] [INFO] utils.js - readFile calculate = 52.966, -6.463
+[2020-09-08T13:26:21.354] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.966","longitude2":"-6.463"}
+[2020-09-08T13:26:21.354] [INFO] formulas.js - greatCircleDistance distance = 43.72248745925171
+[2020-09-08T13:26:21.354] [INFO] index.js - distance = 43.72248745925171
+[2020-09-08T13:26:21.354] [INFO] index.js - Add Michael Ahearn to party List
+[2020-09-08T13:26:21.354] [INFO] index.js - ele = {"latitude": "52.366037", "user_id": 16, "name": "Ian Larkin", "longitude": "-8.179118"}
+[2020-09-08T13:26:21.354] [INFO] utils.js - readFile calculate = 52.366037, -8.179118
+[2020-09-08T13:26:21.354] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.366037","longitude2":"-8.179118"}
+[2020-09-08T13:26:21.354] [INFO] formulas.js - greatCircleDistance distance = 168.39718202062937
+[2020-09-08T13:26:21.354] [INFO] index.js - distance = 168.39718202062937
+[2020-09-08T13:26:21.354] [INFO] index.js - ele = {"latitude": "54.180238", "user_id": 17, "name": "Patricia Cahill", "longitude": "-5.920898"}
+[2020-09-08T13:26:21.355] [INFO] utils.js - readFile calculate = 54.180238, -5.920898
+[2020-09-08T13:26:21.355] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"54.180238","longitude2":"-5.920898"}
+[2020-09-08T13:26:21.355] [INFO] formulas.js - greatCircleDistance distance = 96.07859923633525
+[2020-09-08T13:26:21.355] [INFO] index.js - distance = 96.07859923633525
+[2020-09-08T13:26:21.355] [INFO] index.js - Add Patricia Cahill to party List
+[2020-09-08T13:26:21.355] [INFO] index.js - ele = {"latitude": "53.0033946", "user_id": 39, "name": "Lisa Ahearn", "longitude": "-6.3877505"}
+[2020-09-08T13:26:21.355] [INFO] utils.js - readFile calculate = 53.0033946, -6.3877505
+[2020-09-08T13:26:21.355] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.0033946","longitude2":"-6.3877505"}
+[2020-09-08T13:26:21.355] [INFO] formulas.js - greatCircleDistance distance = 38.35801477480562
+[2020-09-08T13:26:21.355] [INFO] index.js - distance = 38.35801477480562
+[2020-09-08T13:26:21.355] [INFO] index.js - Add Lisa Ahearn to party List
+[2020-09-08T13:26:21.355] [INFO] index.js - ele = {"latitude": "52.228056", "user_id": 18, "name": "Bob Larkin", "longitude": "-7.915833"}
+[2020-09-08T13:26:21.355] [INFO] utils.js - readFile calculate = 52.228056, -7.915833
+[2020-09-08T13:26:21.355] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.228056","longitude2":"-7.915833"}
+[2020-09-08T13:26:21.355] [INFO] formulas.js - greatCircleDistance distance = 166.44809264264532
+[2020-09-08T13:26:21.355] [INFO] index.js - distance = 166.44809264264532
+[2020-09-08T13:26:21.355] [INFO] index.js - ele = {"latitude": "54.133333", "user_id": 24, "name": "Rose Enright", "longitude": "-6.433333"}
+[2020-09-08T13:26:21.355] [INFO] utils.js - readFile calculate = 54.133333, -6.433333
+[2020-09-08T13:26:21.355] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"54.133333","longitude2":"-6.433333"}
+[2020-09-08T13:26:21.355] [INFO] formulas.js - greatCircleDistance distance = 89.03103382223571
+[2020-09-08T13:26:21.355] [INFO] index.js - distance = 89.03103382223571
+[2020-09-08T13:26:21.355] [INFO] index.js - Add Rose Enright to party List
+[2020-09-08T13:26:21.355] [INFO] index.js - ele = {"latitude": "55.033", "user_id": 19, "name": "Enid Cahill", "longitude": "-8.112"}
+[2020-09-08T13:26:21.355] [INFO] utils.js - readFile calculate = 55.033, -8.112
+[2020-09-08T13:26:21.355] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"55.033","longitude2":"-8.112"}
+[2020-09-08T13:26:21.355] [INFO] formulas.js - greatCircleDistance distance = 223.63496516415296
+[2020-09-08T13:26:21.355] [INFO] index.js - distance = 223.63496516415296
+[2020-09-08T13:26:21.355] [INFO] index.js - ele = {"latitude": "53.521111", "user_id": 20, "name": "Enid Enright", "longitude": "-9.831111"}
+[2020-09-08T13:26:21.355] [INFO] utils.js - readFile calculate = 53.521111, -9.831111
+[2020-09-08T13:26:21.355] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.521111","longitude2":"-9.831111"}
+[2020-09-08T13:26:21.355] [INFO] formulas.js - greatCircleDistance distance = 237.57601503985916
+[2020-09-08T13:26:21.355] [INFO] index.js - distance = 237.57601503985916
+[2020-09-08T13:26:21.355] [INFO] index.js - ele = {"latitude": "51.802", "user_id": 21, "name": "David Ahearn", "longitude": "-9.442"}
+[2020-09-08T13:26:21.355] [INFO] utils.js - readFile calculate = 51.802, -9.442
+[2020-09-08T13:26:21.355] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"51.802","longitude2":"-9.442"}
+[2020-09-08T13:26:21.355] [INFO] formulas.js - greatCircleDistance distance = 274.7978002188137
+[2020-09-08T13:26:21.355] [INFO] index.js - distance = 274.7978002188137
+[2020-09-08T13:26:21.355] [INFO] index.js - ele = {"latitude": "54.374208", "user_id": 22, "name": "Charlie McArdle", "longitude": "-8.371639"}
+[2020-09-08T13:26:21.355] [INFO] utils.js - readFile calculate = 54.374208, -8.371639
+[2020-09-08T13:26:21.355] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"54.374208","longitude2":"-8.371639"}
+[2020-09-08T13:26:21.355] [INFO] formulas.js - greatCircleDistance distance = 180.1552772286623
+[2020-09-08T13:26:21.355] [INFO] index.js - distance = 180.1552772286623
+[2020-09-08T13:26:21.355] [INFO] index.js - ele = {"latitude": "53.74452", "user_id": 29, "name": "Oliver Ahearn", "longitude": "-7.11167"}
+[2020-09-08T13:26:21.355] [INFO] utils.js - readFile calculate = 53.74452, -7.11167
+[2020-09-08T13:26:21.355] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.74452","longitude2":"-7.11167"}
+[2020-09-08T13:26:21.355] [INFO] formulas.js - greatCircleDistance distance = 72.20178549704269
+[2020-09-08T13:26:21.355] [INFO] index.js - distance = 72.20178549704269
+[2020-09-08T13:26:21.355] [INFO] index.js - Add Oliver Ahearn to party List
+[2020-09-08T13:26:21.355] [INFO] index.js - ele = {"latitude": "53.761389", "user_id": 30, "name": "Nick Enright", "longitude": "-7.2875"}
+[2020-09-08T13:26:21.355] [INFO] utils.js - readFile calculate = 53.761389, -7.2875
+[2020-09-08T13:26:21.356] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"53.761389","longitude2":"-7.2875"}
+[2020-09-08T13:26:21.356] [INFO] formulas.js - greatCircleDistance distance = 82.64284999110231
+[2020-09-08T13:26:21.356] [INFO] index.js - distance = 82.64284999110231
+[2020-09-08T13:26:21.356] [INFO] index.js - Add Nick Enright to party List
+[2020-09-08T13:26:21.356] [INFO] index.js - ele = {"latitude": "54.080556", "user_id": 23, "name": "Eoin Gallagher", "longitude": "-6.361944"}
+[2020-09-08T13:26:21.356] [INFO] utils.js - readFile calculate = 54.080556, -6.361944
+[2020-09-08T13:26:21.356] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"54.080556","longitude2":"-6.361944"}
+[2020-09-08T13:26:21.356] [INFO] formulas.js - greatCircleDistance distance = 82.69492611639981
+[2020-09-08T13:26:21.356] [INFO] index.js - distance = 82.69492611639981
+[2020-09-08T13:26:21.356] [INFO] index.js - Add Eoin Gallagher to party List
+[2020-09-08T13:26:21.356] [INFO] index.js - ele = {"latitude": "52.833502", "user_id": 25, "name": "David Behan", "longitude": "-8.522366"}
+[2020-09-08T13:26:21.356] [INFO] utils.js - readFile calculate = 52.833502, -8.522366
+[2020-09-08T13:26:21.356] [INFO] formulas.js - greatCircleDistance coords = {"latitude1":"53.339428","longitude1":"-6.257664","latitude2":"52.833502","longitude2":"-8.522366"}
+[2020-09-08T13:26:21.356] [INFO] formulas.js - greatCircleDistance distance = 161.36207870696947
+[2020-09-08T13:26:21.356] [INFO] index.js - distance = 161.36207870696947
+[2020-09-08T13:26:21.468] [TRACE] index.js - Ending

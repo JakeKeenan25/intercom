@@ -1,4 +1,3 @@
-
 # Installation
 
 Install NodeJS: https://nodejs.org/en/download/
@@ -6,14 +5,19 @@ Install NodeJS: https://nodejs.org/en/download/
 Run the following commands in the root of the project.
 
 Download node packages:
+
 ```bash
 npm install
 ```
+
 Testing:
+
 ```bash
 npm test
 ```
+
 Running:
+
 ```bash
 npm start
 ```
@@ -37,3 +41,4 @@ npm start
 { user_id: 30, name: 'Nick Enright' }
 { user_id: 31, name: 'Alan Behan' }
 { user_id: 39, name: 'Lisa Ahearn' }
+```
